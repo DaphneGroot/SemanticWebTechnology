@@ -8,6 +8,12 @@ from itertools import combinations
 from nltk.corpus import wordnet as wn
 from nltk.translate import bleu
 import numpy as np
+import inflect
+
+p = inflect.engine()
+
+CATEGORIES = ['Airport', 'Astronaut', 'Building', 'City', 'Food', 'Monument', 'SportsTeam', 'University', 'WrittenWork']
+CATEGORY = CATEGORIES[0]
 
 def checkCorrect(score,ourSentences,correctSentences):
 	highestBleuScore = 0
@@ -19,14 +25,15 @@ def checkCorrect(score,ourSentences,correctSentences):
 				bleuScore = nltk.translate.bleu_score.sentence_bleu([correctSentence], ourSentence, weights = [1])
 
 				if bleuScore > highestBleuScore:
-					print("correct with Bleu: cS", correctSentence, "with oS ", ourSentence, bleuScore)
+					#print("correct with Bleu: cS", correctSentence, "with oS ", ourSentence, bleuScore)
 					highestBleuScore = bleuScore
 
 
 	if highestBleuScore == 1:
 		score += 1
-
-
+	# else:
+	#  	print(ourSentences)
+	#  	print(correctSentences)
 
 	return highestBleuScore, score
 
@@ -82,10 +89,10 @@ def rreplace(s, old, new, occurrence):
 	return new.join(li)
 
 def replaceObject(Object, sentence):
-	return re.sub(Object + '(\s)', '$object$ ', sentence)
+	return re.sub(Object, '$object$', sentence)
 
 def replaceSubject(Subject, sentence):
-	return re.sub(Subject + '(\s)', '$subject$ ', sentence)
+	return re.sub(Subject, '$subject$', sentence)
 		
 def replaceToGeneral(sentence, Subject, Object):
 	sentence = sentence.lower()
@@ -104,6 +111,7 @@ def replaceToGeneral(sentence, Subject, Object):
 	sentence = replaceSubject(Subject, sentence)
 	sentence = replaceObject(Object, sentence)
 
+
 	### SECOND METHOD: REPLACING LAST COMMA WITH SOMETHING ELSE
 	SubjectAnd = rreplace(Subject, ',', ' and', 1)
 	ObjectAnd = rreplace(Object, ',', ' and', 1)
@@ -115,6 +123,18 @@ def replaceToGeneral(sentence, Subject, Object):
 	sentence = replaceObject(ObjectAnd, sentence)
 	sentence = replaceSubject(SubjectOr, sentence)
 	sentence = replaceObject(ObjectOr, sentence)
+
+	###METHOD: FC to F.C. and F.C. to FC (footballClub) or AFC and other punctuation
+
+	ObjectClubThree =  re.sub(r'(\w)\.(\w)\.(\w)\.', r'\1\2\3', Object)
+	ObjectClubTwo = re.sub(r'(\w)\.(\w)\.', r'\1\2', Object)
+	ObjectDot = re.sub(r'(\w)\.', r'\1', Object)
+	SubjectDot = re.sub(r'(\w)\.', r'\1', Subject)
+
+	sentence = replaceObject(ObjectClubTwo, sentence)
+	sentence = replaceObject(ObjectClubThree, sentence)
+	sentence = replaceObject(ObjectDot, sentence)
+	sentence = replaceSubject(SubjectDot, sentence)
 
 	### THIRD METHOD: Fuzzy replacement
 	if '$subject$' not in sentence or '$object$' not in sentence:
@@ -161,17 +181,20 @@ def showPredicateRecall(predicateDict, minimumAmount = 1):
 def replaceToSpecific(sentence, Subject, Object):
 	return sentence.replace('$subject$', Subject).replace('$object$', Object)
 
-def testData(predicateDict):
+def testData(predicateDict, category):
 	bleuScoreList = []
 
 	score = 0
-	treeTest = ET.parse('WebNLG/dev/1triples/1triple_allSolutions_Building_dev_challenge.xml')
+	treeTest = ET.parse('WebNLG/dev/1triples/1triple_allSolutions_'+category+'_dev_challenge.xml')
 	rootTest = treeTest.getroot()
 	for i in range(len(rootTest[0])):
 		tripleSet = rootTest[0][i][1][0].text
 		Subject   = tripleSet.split('|')[0].strip().lower().replace("_"," ")
+		Subject = re.sub('"@en', ' ', Subject) #Olive oil Potatoes is caused by the @en stuff...
 		Predicate = tripleSet.split('|')[1].strip()
 		Object    = tripleSet.split('|')[2].strip().lower().replace("_"," ").strip("_\"")
+		Object = re.sub('"@en', ' ', Object) #Olive oil Potatoes is caused by the @en stuff...
+		
 
 		#to obtain the sentences from the XML files
 		n = 2
@@ -194,8 +217,7 @@ def testData(predicateDict):
 		if Predicate in predicateDict:
 			sentence = predicateDict[Predicate]
 		else:
-			sentence = "" #just an ugly message
-
+			sentence = [] #no predicate found...
 		
 		# print("SPO: ", Subject,Predicate, Object)
 		# print("sentence: ", sentence)
@@ -206,19 +228,45 @@ def testData(predicateDict):
 
 		# print("ourSentence: ", ourSentences)
 		# print("correctSentences: ", correctSentences)
+
+		ourSentences = postProcessing(ourSentences)
 		
 		bleuScore, score = checkCorrect(score,ourSentences,correctSentences)
 		
-		print('-'*50)
+		#print('-'*50)
 
 		bleuScoreList.append(bleuScore)
 
+	
 	print("average Bleu score ", np.mean(bleuScoreList))
 	print("sentences correct ", score, "of", len(rootTest[0]))
+	print('*'*50)
 
+def postProcessing(ourSentences):
+	
+	for i, ourSentence in enumerate(ourSentences):
+		ourSentence = re.sub(r'(\w*) ,', r'\1,', ourSentence) #word1 , word2 > word1, word2
+		ourSentence = ourSentence.split()
+		
+		if 'a' in ourSentence or 'an' in ourSentence:
+			for j, word in enumerate(ourSentence):
+				
+				if word == 'a' or word == 'an':
+					if j+1 < len(ourSentence):
+							ourSentence[j] = p.a(ourSentence[j+1]).split()[0]
+		ourSentences[i] = ' '.join(ourSentence)
 
-def main():
-	tree = ET.parse('WebNLG/train/1triples/1triple_allSolutions_Building_train_challenge.xml')
+	return ourSentences
+
+def main(categorySetting):
+	if categorySetting == 'all':
+		for category in CATEGORIES:
+			run(category)
+	else: 
+		run(CATEGORY)
+
+def run(category):
+	tree = ET.parse('WebNLG/train/1triples/1triple_allSolutions_AllExceptCC_train_challenge.xml')
 	root = tree.getroot()
 	predicateDict = {}
 
@@ -246,7 +294,7 @@ def main():
 	if showChecks is True:
 		showPredicateRecall(predicateDict, 1)
 	
-	testData(predicateDict)
+	testData(predicateDict, category)
 
 if __name__ == '__main__':
-	main()
+	main(categorySetting = 'all')
