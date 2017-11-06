@@ -1,0 +1,2323 @@
+<benchmark>
+  <entries>
+    <entry category="Food" eid="Id1" size="1">
+      <originaltripleset>
+        <otriple>Ajoblanco | alias | "Ajo blanco"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Ajoblanco | alternativeName | "Ajo blanco"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The alternative name for Ajoblanco is "Ajo blanco".</lex>
+      <lex comment="good" lid="Id2">Ajo blanco is an alternative name to Ajoblanco.</lex>
+      <lex comment="good" lid="Id3">Ajo blanco is an alternative name of Ajoblanco.</lex>
+    </entry>
+    <entry category="Food" eid="Id2" size="1">
+      <originaltripleset>
+        <otriple>Ajoblanco | mainIngredient | "Bread, almonds, garlic, water, olive oil"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Ajoblanco | mainIngredients | "Bread, almonds, garlic, water, olive oil"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The main ingredients in ajoblanco are bread, almonds, garlic, water and olive oil.</lex>
+      <lex comment="good" lid="Id2">Bread, almonds, garlic, water, and olive oil are the main ingredients in Ajoblanco.</lex>
+      <lex comment="good" lid="Id3">The main ingredients of Ajoblanco are bread, almonds, garlic, water, olive oil.</lex>
+    </entry>
+    <entry category="Food" eid="Id3" size="1">
+      <originaltripleset>
+        <otriple>Arem-arem | region | "Nationwide in Indonesia, but more specific to Java"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Arem-arem | region | "Nationwide in Indonesia, but more specific to Java"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Arem-arem is found nationwide in Indonesia, but is more specific to Java.</lex>
+      <lex comment="good" lid="Id2">Arem-arem is nationwide in Indonesia, but more specific to Java.</lex>
+    </entry>
+    <entry category="Food" eid="Id4" size="1">
+      <originaltripleset>
+        <otriple>Arem-arem | region | Indonesia</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Arem-arem | region | Indonesia</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Arem arem comes from Indonesia.</lex>
+    </entry>
+    <entry category="Food" eid="Id5" size="1">
+      <originaltripleset>
+        <otriple>Arrabbiata_sauce | ingredientName | "Tomatoes,red chili,garlic,olive oil"</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Arrabbiata_sauce | mainIngredient | "Tomatoes, red chili, garlic, olive oil"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Arrabbiata_sauce | mainIngredients | "Tomatoes, red chili, garlic, olive oil"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Arrabbiata sauce is made with tomatoes, red chili, garlic and olive oil.</lex>
+      <lex comment="good" lid="Id2">the main ingredients in Arrabbiata sauce are Tomatoes, red chili, garlic and olive oil.</lex>
+    </entry>
+    <entry category="Food" eid="Id6" size="1">
+      <originaltripleset>
+        <otriple>Arròs_negre | ingredient | Cuttlefish</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Arròs_negre | ingredient | Cuttlefish</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Cuttlefish is an ingredient in Arros negre.</lex>
+      <lex comment="good" lid="Id2">Cuttlefish is an ingredient of the dish Arròs negre.</lex>
+    </entry>
+    <entry category="Food" eid="Id7" size="1">
+      <originaltripleset>
+        <otriple>Arròs_negre | ingredient | Squid</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Arròs_negre | ingredient | Squid</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Squid is an ingredient of Arros negre.</lex>
+    </entry>
+    <entry category="Food" eid="Id8" size="1">
+      <originaltripleset>
+        <otriple>Asam_pedas | country | Malaysia</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Asam_pedas | country | Malaysia</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Asam pedas is a food found in Malaysia.</lex>
+    </entry>
+    <entry category="Food" eid="Id9" size="1">
+      <originaltripleset>
+        <otriple>Avocado | genus | Persea</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Avocado | genus | Persea</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The genus of the avocado is persea.</lex>
+      <lex comment="good" lid="Id2">The genus of Avocado is Persea.</lex>
+    </entry>
+    <entry category="Food" eid="Id10" size="1">
+      <originaltripleset>
+        <otriple>Ayam_penyet | servingTemperature | "Hot"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Ayam_penyet | servingTemperature | "Hot"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Ayam penyet should be served hot.</lex>
+      <lex comment="good" lid="Id2">Ayam penyet is a dish that should be served hot.</lex>
+      <lex comment="good" lid="Id3">ayam penyet is served hot.</lex>
+    </entry>
+    <entry category="Food" eid="Id11" size="1">
+      <originaltripleset>
+        <otriple>Baked_Alaska | course | Dessert</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Baked_Alaska | course | Dessert</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Baked Alaska is a dessert.</lex>
+    </entry>
+    <entry category="Food" eid="Id12" size="1">
+      <originaltripleset>
+        <otriple>Bakewell_tart | ingredient | Frangipane</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Bakewell_tart | ingredient | Frangipane</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">An ingredient of bakewell tart is frangipane.</lex>
+      <lex comment="good" lid="Id2">Frangipane is an ingredient in a Bakewell tart.</lex>
+      <lex comment="good" lid="Id3">Frangipane is an ingredient of Bakewell tart.</lex>
+    </entry>
+    <entry category="Food" eid="Id13" size="1">
+      <originaltripleset>
+        <otriple>Bakso | ingredient | Noodle</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Bakso | ingredient | Noodle</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The dish Bakso contains noodles.</lex>
+      <lex comment="good" lid="Id2">Noodle is an ingredient in Bakso.</lex>
+      <lex comment="good" lid="Id3">bakso contains noodles.</lex>
+    </entry>
+    <entry category="Food" eid="Id14" size="1">
+      <originaltripleset>
+        <otriple>Bakso | ingredient | Vermicelli</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Bakso | ingredient | Vermicelli</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Vermicelli is an ingredient in Bakso.</lex>
+      <lex comment="good" lid="Id2">Vermicelli is an ingredient of the dish Bakso.</lex>
+      <lex comment="good" lid="Id3">Vermicelli is included in bakso.</lex>
+    </entry>
+    <entry category="Food" eid="Id15" size="1">
+      <originaltripleset>
+        <otriple>Bandeja_paisa | ingredient | Chorizo</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Bandeja_paisa | ingredient | Chorizo</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Chorizo is an ingredient in the dish Bandeja paisa.</lex>
+      <lex comment="good" lid="Id2">Chorizo is an ingredient in Bandeja paisa.</lex>
+    </entry>
+    <entry category="Food" eid="Id16" size="1">
+      <originaltripleset>
+        <otriple>Barny_Cakes | creator | Mondelez_International</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Barny_Cakes | creator | Mondelez_International</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Mondelez International is the creator of Barny cakes.</lex>
+      <lex comment="good" lid="Id2">Barny cakes were created by Mondelez International.</lex>
+      <lex comment="good" lid="Id3">Barny cakes is created by Mondelez International.</lex>
+    </entry>
+    <entry category="Food" eid="Id17" size="1">
+      <originaltripleset>
+        <otriple>Barny_Cakes | hasVariant | Chocolate</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Barny_Cakes | dishVariation | Chocolate</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Barny Cakes can be chocolate flavoured.</lex>
+      <lex comment="good" lid="Id2">Chocolate is one variation of the Barny Cakes dish.</lex>
+    </entry>
+    <entry category="Food" eid="Id18" size="1">
+      <originaltripleset>
+        <otriple>Barny_Cakes | protein | "1.8"^^xsd:double</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Barny_Cakes | protein | 1.8 g</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Barny cakes contain 1.8 g of protein.</lex>
+      <lex comment="good" lid="Id2">Barny cakes contain 1.8g of protein.</lex>
+    </entry>
+    <entry category="Food" eid="Id19" size="1">
+      <originaltripleset>
+        <otriple>Batchoy | country | Philippines</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Batchoy | country | Philippines</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Batchoy is eaten in the Philippines.</lex>
+      <lex comment="good" lid="Id2">Philippines is the country Batchoy comes from.</lex>
+    </entry>
+    <entry category="Food" eid="Id20" size="1">
+      <originaltripleset>
+        <otriple>Batchoy | ingredient | Chicken</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Batchoy | ingredient | Chicken</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Chicken is an ingredient in Batchoy.</lex>
+      <lex comment="good" lid="Id2">Batchoy includes chicken.</lex>
+    </entry>
+    <entry category="Food" eid="Id21" size="1">
+      <originaltripleset>
+        <otriple>Batchoy | ingredient | Vegetable</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Batchoy | ingredient | Vegetable</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Vegetable are used in the preparation of Batchoy.</lex>
+      <lex comment="good" lid="Id2">Vegetables are an ingredient in Batchoy.</lex>
+    </entry>
+    <entry category="Food" eid="Id22" size="1">
+      <originaltripleset>
+        <otriple>Binignit | region | Visayas</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Binignit | region | Visayas</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Binignit is a dish from the region of Visayas.</lex>
+    </entry>
+    <entry category="Food" eid="Id23" size="1">
+      <originaltripleset>
+        <otriple>Derbyshire_Dales | leaderName | Patrick_McLoughlin</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Derbyshire_Dales | leaderName | Patrick_McLoughlin</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Patrick McLoughlin is a leader in the Derbyshire Dales.</lex>
+      <lex comment="good" lid="Id2">Patrick McLoughlin is a leader in Derbyshire Dales.</lex>
+      <lex comment="good" lid="Id3">Patrick McLoughlin is the leader of Derbyshire Dales.</lex>
+    </entry>
+    <entry category="Food" eid="Id24" size="1">
+      <originaltripleset>
+        <otriple>Dessert | hasVariant | Cake</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Dessert | dishVariation | Cake</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">A variation on dessert is cake.</lex>
+    </entry>
+    <entry category="Food" eid="Id25" size="1">
+      <originaltripleset>
+        <otriple>Dessert | hasVariant | Ice_cream</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Dessert | dishVariation | Ice_cream</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Ice cream is a type of dessert.</lex>
+      <lex comment="good" lid="Id2">A type of dessert is an ice cream.</lex>
+      <lex comment="good" lid="Id3">Ice cream is a dessert.</lex>
+    </entry>
+    <entry category="Food" eid="Id26" size="1">
+      <originaltripleset>
+        <otriple>Indonesia | leaderName | Jusuf_Kalla</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Indonesia | leader | Jusuf_Kalla</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Indonesia | leaderName | Jusuf_Kalla</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Jusuf Kalla is a leader in Indonesia.</lex>
+      <lex comment="good" lid="Id2">Jusuf Kalla is the leader of Indonesia.</lex>
+    </entry>
+    <entry category="Food" eid="Id27" size="1">
+      <originaltripleset>
+        <otriple>Italy | demonym | Italians</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Italy | demonym | Italians</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Italians are from Italy.</lex>
+      <lex comment="good" lid="Id2">Italians is the name given to people from Italy.</lex>
+    </entry>
+    <entry category="Food" eid="Id28" size="1">
+      <originaltripleset>
+        <otriple>Java | ethnicGroup | Baduy</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Java | ethnicGroup | Baduy</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Baduy is the ethnic group of Java.</lex>
+      <lex comment="good" lid="Id2">The Baduy is an ethnic group in Java.</lex>
+      <lex comment="good" lid="Id3">Baduy is an ethnic group of Java.</lex>
+    </entry>
+    <entry category="Food" eid="Id29" size="1">
+      <originaltripleset>
+        <otriple>Lemon | order | Rosids</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Lemon | order | Rosids</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Lemon is under the order of Rosids.</lex>
+      <lex comment="good" lid="Id2">the order of lemons is Rosids.</lex>
+    </entry>
+    <entry category="Food" eid="Id30" size="1">
+      <originaltripleset>
+        <otriple>Mexico | demonym | Mexicans</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Mexico | demonym | Mexicans</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Mexico is inhabited by Mexicans.</lex>
+      <lex comment="good" lid="Id2">Mexicans are people from Mexico.</lex>
+    </entry>
+    <entry category="Food" eid="Id31" size="1">
+      <originaltripleset>
+        <otriple>Mexico | language | Spanish_language</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Mexico | language | Spanish_language</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">In Mexico, the spoken language is Spanish.</lex>
+      <lex comment="good" lid="Id2">Spanish is the language spoken in Mexico.</lex>
+      <lex comment="good" lid="Id3">The language of Mexico is Spanish.</lex>
+    </entry>
+    <entry category="Food" eid="Id32" size="1">
+      <originaltripleset>
+        <otriple>Philippines | language | Arabic</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Philippines | language | Arabic</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">One of the languages used in the Philippines is Arabic.</lex>
+      <lex comment="good" lid="Id2">Arabic is a language spoken in the Philippines.</lex>
+      <lex comment="good" lid="Id3">One of the languages in Philippines is Arabic.</lex>
+      <lex comment="good" lid="Id4">Arabic is one of the languages spoken in the Philippines.</lex>
+    </entry>
+    <entry category="Food" eid="Id33" size="1">
+      <originaltripleset>
+        <otriple>Siomay | hasVariant | Shumai</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Siomay | variations | Shumai</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Siomay | dishVariation | Shumai</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Shumai is a variation of the dish Siomay.</lex>
+      <lex comment="good" lid="Id2">Siomay and Shumai are variations of the same dish.</lex>
+    </entry>
+    <entry category="Food" eid="Id34" size="1">
+      <originaltripleset>
+        <otriple>United_States | ethnicGroup | Native_Americans_in_the_United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>United_States | ethnicGroup | Native_Americans_in_the_United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Native Americans in the United States are one of the ethnic groups of the country.</lex>
+    </entry>
+        <entry category="City" eid="Id1" size="1">
+      <originaltripleset>
+        <otriple>Abilene,_Texas | areaCode | 325</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Abilene,_Texas | areaCode | 325</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The area code of Abilene, in Texas, is 325.</lex>
+      <lex comment="good" lid="Id2">325 is the area code for Abilene, Texas.</lex>
+      <lex comment="good" lid="Id3">The area code for Abilene in Texas is 325.</lex>
+    </entry>
+    <entry category="City" eid="Id2" size="1">
+      <originaltripleset>
+        <otriple>Abilene,_Texas | isPartOf | Texas</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Abilene,_Texas | isPartOf | Texas</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Abilene is a part of Texas.</lex>
+      <lex comment="good" lid="Id2">Abilene, Texas, is part of Texas.</lex>
+    </entry>
+    <entry category="City" eid="Id3" size="1">
+      <originaltripleset>
+        <otriple>Albany,_Georgia | leaderTitle | "Mayor"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Albany,_Georgia | leaderTitle | Mayor</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Albany, Georgia has a Mayor as leader.</lex>
+      <lex comment="good" lid="Id2">Albany, Georgia is lead by a Mayor.</lex>
+      <lex comment="good" lid="Id3">The leader of Albany, Georgia is the Mayor.</lex>
+    </entry>
+    <entry category="City" eid="Id4" size="1">
+      <originaltripleset>
+        <otriple>Albany,_Oregon | areaTotal | 4.59723e+07</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Albany,_Oregon | areaTotal | 45.97 (square kilometres)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Albany, Oregon has a total area of 45.97 square kilometres.</lex>
+      <lex comment="good" lid="Id2">The total area of Albany Oregon is 45.97 Sq K.</lex>
+      <lex comment="good" lid="Id3">The total area of Albany, Oregon is 45.97 sq kms.</lex>
+    </entry>
+    <entry category="City" eid="Id5" size="1">
+      <originaltripleset>
+        <otriple>Albany,_Oregon | country | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Albany,_Oregon | country | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Albany, Oregon is in the U.S.</lex>
+      <lex comment="good" lid="Id2">Albany, Oregon is located within the United States.</lex>
+    </entry>
+    <entry category="City" eid="Id6" size="1">
+      <originaltripleset>
+        <otriple>Albuquerque,_New_Mexico | leaderTitle | "State Senate"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Albuquerque,_New_Mexico | leaderTitle | "State Senate"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Albuquerque, New Mexico is led by the State Senate.</lex>
+    </entry>
+    <entry category="City" eid="Id7" size="1">
+      <originaltripleset>
+        <otriple>Albuquerque,_New_Mexico | leaderTitle | Albuquerque_City_Council</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Albuquerque,_New_Mexico | leaderTitle | Albuquerque_City_Council</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Albuquerque City Council has a leadership role in Albuquerque, New Mexico.</lex>
+      <lex comment="good" lid="Id2">Albuquerque in New Mexico is led by the Albuquerque City Council.</lex>
+    </entry>
+    <entry category="City" eid="Id8" size="1">
+      <originaltripleset>
+        <otriple>Amarillo,_Texas | country | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Amarillo,_Texas | country | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Amarillo is in Texas, in the United States.</lex>
+      <lex comment="good" lid="Id2">The United States is the home country to Amarillo,Texas.</lex>
+      <lex comment="good" lid="Id3">Amarillo, Texas is located within the United States.</lex>
+    </entry>
+    <entry category="City" eid="Id9" size="1">
+      <originaltripleset>
+        <otriple>Amarillo,_Texas | subdivisionName | Potter_County,_Texas</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Amarillo,_Texas | isPartOf | Potter_County,_Texas</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Amarillo,_Texas | isPartOf | Potter_County,_Texas</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Amarillo is part of Potter County in Texas.</lex>
+      <lex comment="good" lid="Id2">Amarillo is part of Potter County, Texas.</lex>
+    </entry>
+    <entry category="City" eid="Id10" size="1">
+      <originaltripleset>
+        <otriple>Amarillo,_Texas | subdivisionName | "United States"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Amarillo,_Texas | isPartOf | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Amarillo is in Texas, in the United States.</lex>
+      <lex comment="good" lid="Id2">Amarillo, Texas is part of the United States.</lex>
+      <lex comment="good" lid="Id3">Amarillo, Texas, is part of the United States.</lex>
+    </entry>
+    <entry category="City" eid="Id11" size="1">
+      <originaltripleset>
+        <otriple>Anaheim,_California | areaCode | 657</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Anaheim,_California | areaCode | 657</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Anaheim, in California, has the area code 657.</lex>
+      <lex comment="good" lid="Id2">The area code of Anaheim, California is 657.</lex>
+      <lex comment="good" lid="Id3">The area code for Anaheim, California, is 657.</lex>
+    </entry>
+    <entry category="City" eid="Id12" size="1">
+      <originaltripleset>
+        <otriple>Anderson,_Indiana | subdivisionName | "Adams, Fall Creek, Lafayette, Richland, Union"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Anderson,_Indiana | isPartOf | "Adams, Fall Creek, Lafayette, Richland, Union"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Anderson, Indiana is part of Adams Fall Creek, Lafayette, Richland, Union.</lex>
+    </entry>
+    <entry category="City" eid="Id13" size="1">
+      <originaltripleset>
+        <otriple>Angola,_Indiana | subdivisionName | Pleasant_Township,_Steuben_County,_Indiana</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Angola,_Indiana | isPartOf | Pleasant_Township,_Steuben_County,_Indiana</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Angola,_Indiana | isPartOf | Pleasant_Township,_Steuben_County,_Indiana</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Angola is in Pleasant Township which is part of Steuben County, in Indiana.</lex>
+      <lex comment="good" lid="Id2">Angola, Indiana is part of Pleasant Township, which is in Steuben County.</lex>
+    </entry>
+    <entry category="City" eid="Id14" size="1">
+      <originaltripleset>
+        <otriple>Ann_Arbor,_Michigan | leaderTitle | "City Administrator"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Ann_Arbor,_Michigan | leaderTitle | "City Administrator"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">A City Administrator leads Ann Arbor, Michigan.</lex>
+      <lex comment="good" lid="Id2">The City Administrator leads Ann Arbor in Michigan.</lex>
+    </entry>
+    <entry category="City" eid="Id15" size="1">
+      <originaltripleset>
+        <otriple>Ann_Arbor,_Michigan | leaderTitle | "Mayor"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Ann_Arbor,_Michigan | leaderTitle | Mayor</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Mayor, is the title of the leader in Ann Arbor, Michigan.</lex>
+      <lex comment="good" lid="Id2">Ann Arbor, Michigan is led by the Mayor.</lex>
+      <lex comment="good" lid="Id3">The leader title of Ann Arbor, Michigan, is Mayor.</lex>
+    </entry>
+    <entry category="City" eid="Id16" size="1">
+      <originaltripleset>
+        <otriple>Ann_Arbor,_Michigan | populationDensity | "1580.7"^^xsd:double</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Ann_Arbor,_Michigan | populationDensity | 1580.7 (inhabitants per square kilometre)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The city of Ann Arbor, Michigan, has a population of 1580.7 as per square kilometre.</lex>
+      <lex comment="good" lid="Id2">AnnArbor, Michigan has a population of 1580.7 peer square kilometer.</lex>
+      <lex comment="good" lid="Id3">The population density of Ann Arbor, Michigan is 1580.7 inhabitants per sq km.</lex>
+    </entry>
+    <entry category="City" eid="Id17" size="1">
+      <originaltripleset>
+        <otriple>Antioch,_California | elevation | "13.1064"^^xsd:double</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Antioch,_California | elevationAboveTheSeaLevel | 13.0</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Antioch, CA is 13 above sea level.</lex>
+      <lex comment="good" lid="Id2">Antioch, California is 13.0 metres above sea level.</lex>
+      <lex comment="good" lid="Id3">Antioch, California is located at 13.0 above sea level.</lex>
+    </entry>
+    <entry category="City" eid="Id18" size="1">
+      <originaltripleset>
+        <otriple>Antioch,_California | leaderTitle | California's_11th_State_Assembly_district</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Antioch,_California | leaderTitle | California's_11th_State_Assembly_district</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The leader title of Antioch, California, is California's 11th State Assembly district.</lex>
+      <lex comment="good" lid="Id2">The leader title of Antioch California is California's 11th State Assembly district.</lex>
+    </entry>
+    <entry category="City" eid="Id19" size="1">
+      <originaltripleset>
+        <otriple>Arlington,_Texas | elevation | "184.099"^^xsd:double</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Arlington,_Texas | elevationAboveTheSeaLevel | 184.0</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Arlington Texas is has an elevation of 184 above sea level.</lex>
+      <lex comment="good" lid="Id2">Arlington in Texas is located at 184.0 above sea level.</lex>
+    </entry>
+    <entry category="City" eid="Id20" size="1">
+      <originaltripleset>
+        <otriple>Atlantic_County,_New_Jersey | country | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Atlantic_County,_New_Jersey | country | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Atlantic County, New Jersey is located in the United States.</lex>
+      <lex comment="good" lid="Id2">Atlantic County in New Jersey is located in the United States.</lex>
+    </entry>
+    <entry category="City" eid="Id21" size="1">
+      <originaltripleset>
+        <otriple>Attica,_Indiana | isPartOf | Fountain_County,_Indiana</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Attica,_Indiana | subdivisionName | Fountain_County,_Indiana</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Attica,_Indiana | isPartOf | Fountain_County,_Indiana</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Attica is part of Fountain County Indiana.</lex>
+      <lex comment="good" lid="Id2">Attica, Indiana is in Fountain County, Indiana.</lex>
+    </entry>
+    <entry category="City" eid="Id22" size="1">
+      <originaltripleset>
+        <otriple>Auburn,_Alabama | subdivisionName | Alabama</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Auburn,_Alabama | isPartOf | Alabama</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Auburn,_Alabama | isPartOf | Alabama</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Auburn is part of Alabama.</lex>
+      <lex comment="good" lid="Id2">Auburn is located in Alabama.</lex>
+    </entry>
+    <entry category="City" eid="Id23" size="1">
+      <originaltripleset>
+        <otriple>California | country | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>California | country | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">California is in the United States.</lex>
+      <lex comment="good" lid="Id2">California is in the U.S.</lex>
+    </entry>
+    <entry category="City" eid="Id24" size="1">
+      <originaltripleset>
+        <otriple>Fulton_County,_Georgia | largestCity | Atlanta</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Fulton_County,_Georgia | largestCity | Atlanta</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Atlanta is the largest city of Fulton County, Georgia.</lex>
+      <lex comment="good" lid="Id2">Atlanta is the largest city in Fulton County, Georgia.</lex>
+    </entry>
+    <entry category="City" eid="Id25" size="1">
+      <originaltripleset>
+        <otriple>Georgia_(U.S._state) | country | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Georgia_(U.S._state) | country | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The state of Georgia is in the U.S.</lex>
+      <lex comment="good" lid="Id2">Georgia is in the country of United States.</lex>
+      <lex comment="good" lid="Id3">The state of Georgia is located within the United States.</lex>
+    </entry>
+    <entry category="City" eid="Id26" size="1">
+      <originaltripleset>
+        <otriple>Indiana | capital | Indianapolis</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Indiana | capital | Indianapolis</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Indianapolis is the capital of Indiana.</lex>
+    </entry>
+    <entry category="City" eid="Id27" size="1">
+      <originaltripleset>
+        <otriple>Lee_County,_Alabama | state | Alabama</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Lee_County,_Alabama | state | Alabama</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Lee County is in Alabama.</lex>
+      <lex comment="good" lid="Id2">Lee County is in the state of Alabama.</lex>
+      <lex comment="good" lid="Id3">Lee County is situated within the state of Alabama.</lex>
+    </entry>
+    <entry category="City" eid="Id28" size="1">
+      <originaltripleset>
+        <otriple>New_Jersey | capital | Trenton,_New_Jersey</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>New_Jersey | capital | Trenton,_New_Jersey</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Trenton is the capital of New Jersey.</lex>
+      <lex comment="good" lid="Id2">The capital of the state of New Jersey is Trenton.</lex>
+    </entry>
+    <entry category="City" eid="Id29" size="1">
+      <originaltripleset>
+        <otriple>Potter_County,_Texas | state | Texas</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Potter_County,_Texas | state | Texas</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Potter County is in Texas.</lex>
+      <lex comment="good" lid="Id2">Potter County is in the State of Texas.</lex>
+    </entry>
+    <entry category="City" eid="Id30" size="1">
+      <originaltripleset>
+        <otriple>Tarrant_County,_Texas | country | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Tarrant_County,_Texas | country | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Tarrant County, Texas is situated in the United States.</lex>
+      <lex comment="good" lid="Id2">Tarrant County in Texas is in the U.S.</lex>
+      <lex comment="good" lid="Id3">Tarrant County, Texas is located within the United States.</lex>
+    </entry>
+    <entry category="City" eid="Id31" size="1">
+      <originaltripleset>
+        <otriple>Washtenaw_County,_Michigan | largestCity | Ann_Arbor,_Michigan</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Washtenaw_County,_Michigan | largestCity | Ann_Arbor,_Michigan</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Ann Arbor is the largest city in Washtenaw County, Michigan.</lex>
+      <lex comment="good" lid="Id2">The largest town in Washtenaw county Michigan is Ann Arbor.</lex>
+      <lex comment="good" lid="Id3">The largest city in Washtenaw County, Michigan is Ann Arbor.</lex>
+    </entry>
+        <entry category="Monument" eid="Id1" size="1">
+      <originaltripleset>
+        <otriple>Atatürk_Monument_(İzmir) | designer | Pietro_Canonica</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Atatürk_Monument_(İzmir) | designer | Pietro_Canonica</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Atatürk Monument in Izmir was designed by Pietro Canonica.</lex>
+      <lex comment="good" lid="Id2">Pietro Canonica designed the Atatürk Monument in Izmir.</lex>
+      <lex comment="good" lid="Id3">Pietro Canonica is the designer of the Ataturk Monument (Izmir).</lex>
+      <lex comment="good" lid="Id4">The Ataturk Monument was designed by Pietro Canonica.</lex>
+      <lex comment="good" lid="Id5">Ataturk Monument was designed by Pietro Canonica.</lex>
+      <lex comment="good" lid="Id6">The Atatürk Monument (İzmir) was designed by Pietro Canonica.</lex>
+      <lex comment="good" lid="Id7">The designer of the Atatürk_Monument (İzmir) is Pietro Canonica.</lex>
+      <lex comment="good" lid="Id8">Pietro Canonica is the designer of the Ataturk Monument in Izmir.</lex>
+    </entry>
+    <entry category="Monument" eid="Id2" size="1">
+      <originaltripleset>
+        <otriple>Atatürk_Monument_(İzmir) | material | "Bronze"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Atatürk_Monument_(İzmir) | material | "Bronze"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Atatürk Monument in Izmir is made of bronze.</lex>
+      <lex comment="good" lid="Id2">The material of the Ataturk Monument (Izmir) is bronze.</lex>
+      <lex comment="good" lid="Id3">The Ataturk Monument is made from Bronze.</lex>
+      <lex comment="good" lid="Id4">The Atatürk Monument (İzmir) is made of Bronze.</lex>
+      <lex comment="good" lid="Id5">Ataturk Monument is made of Bronze.</lex>
+    </entry>
+    <entry category="Monument" eid="Id3" size="1">
+      <originaltripleset>
+        <otriple>Azerbaijan | leaderName | Artur_Rasizade</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Azerbaijan | leaderName | Artur_Rasizade</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Azerbaijan leader's name is Artur Rasizade.</lex>
+      <lex comment="good" lid="Id2">The name of the leader of Azerbaijan is Artur Rasizade.</lex>
+    </entry>
+    <entry category="Monument" eid="Id4" size="1">
+      <originaltripleset>
+        <otriple>Baku_Turkish_Martyrs'_Memorial | location | Azerbaijan</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Baku_Turkish_Martyrs'_Memorial | location | Azerbaijan</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Baku Turkish Martyrs' Memorial is located in Azerbaijan.</lex>
+      <lex comment="good" lid="Id2">The Baku Turkish Martyr's Memorial is in Azerbaijan.</lex>
+      <lex comment="good" lid="Id3">The Turkish martyrs memorial is located in Baku, Azerbaijan.</lex>
+      <lex comment="good" lid="Id4">Baku Turkish Martyrs' Memorial is located in Azerbaijan.</lex>
+      <lex comment="good" lid="Id5">The Baku Turkish Martyrs' Memorial can be found is Azerbaijan.</lex>
+      <lex comment="good" lid="Id6">The Baku Turkish Martyrs' Memorial is in Azerbaijan.</lex>
+      <lex comment="good" lid="Id7">The Baku Turkish Martyrs' Memorial is found in Azerbaijan.</lex>
+    </entry>
+    <entry category="Monument" eid="Id5" size="1">
+      <originaltripleset>
+        <otriple>Baku_Turkish_Martyrs'_Memorial | material | "Red granite and white marble"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Baku_Turkish_Martyrs'_Memorial | material | "Red granite and white marble"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The materials used for the Baku Turkish Martyrs' Memorial is red granite and white marble.</lex>
+      <lex comment="good" lid="Id2">The Baku Turkish Martyrs' Memorial is created in red granite and white marble.</lex>
+      <lex comment="good" lid="Id3">The material of the Baku Turkish Martyrs' Memorial is Red granite and white marble.</lex>
+      <lex comment="good" lid="Id4">The Baku Turkish Martyrs' Memorial is made from red granite and white marble.</lex>
+      <lex comment="good" lid="Id5">Baku Turkish Martyrs' Memorial is made of red granite and white marble.</lex>
+      <lex comment="good" lid="Id6">Baku Turkish Martyrs' Memorial is made from red granite and white marble.</lex>
+      <lex comment="good" lid="Id7">The Baku Turkish Martyrs' Memorial is made with red granite and white marble.</lex>
+    </entry>
+        <entry category="SportsTeam" eid="Id1" size="1">
+      <originaltripleset>
+        <otriple>1._FC_Köln | manager | Peter_Stöger</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>1._FC_Köln | manager | Peter_Stöger</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Peter Stoger is the manager of FC Kolin.</lex>
+      <lex comment="good" lid="Id2">Peter Stöger is manager of 1. FC Köln.</lex>
+      <lex comment="good" lid="Id3">The manager of 1. FC Koln is Peter Stoger.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id2" size="1">
+      <originaltripleset>
+        <otriple>1._FC_Magdeburg | season | 2014</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>1._FC_Magdeburg | season | 2014</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">1 FC Magdeburg played in the 2014 season.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id3" size="1">
+      <originaltripleset>
+        <otriple>A.C._Lumezzane | season | 2014–15_Lega_Pro</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.C._Lumezzane | season | 2014–15_Lega_Pro</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">A C Lumezzane played the 2014-2015 season in Lega Pro.</lex>
+      <lex comment="good" lid="Id2">Lumezzane played in the Lega Pro during the 2014 season.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id4" size="1">
+      <originaltripleset>
+        <otriple>A.D._Isidro_Metapán | fullname | "Asociación Deportiva"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.D._Isidro_Metapán | fullname | "Asociación Deportiva"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">A.D. Isidro Metapan's full name is "Asociación Deportiva".</lex>
+      <lex comment="good" lid="Id2">A.D. Isidro Metapán's full name is Asociación Deportiva.</lex>
+      <lex comment="good" lid="Id3">The fullname of A.D. Isidro Metapan is Asociacion Deportiva.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id5" size="1">
+      <originaltripleset>
+        <otriple>A.E_Dimitra_Efxeinoupolis | fullname | "A.E Dimitra Efxeinoupolis"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.E_Dimitra_Efxeinoupolis | fullname | "A.E Dimitra Efxeinoupolis"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">A.E Dimitra Efxeinoupolis's full name is A.E Dimitra Efxeinoupolis.</lex>
+      <lex comment="good" lid="Id2">"A.E Dimitra Efxeinoupolis" is the full name of A.E Dimitra Efxeinoupolis.</lex>
+      <lex comment="good" lid="Id3">A.E Dimitra Efxeinoupolis has the fullname A.E Dimitra Efxeinoupolis.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id6" size="1">
+      <originaltripleset>
+        <otriple>A.E_Dimitra_Efxeinoupolis | season | 2014</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.E_Dimitra_Efxeinoupolis | season | 2014</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">A.E Dimitra Efxeinoupolis played in the 2014 season.</lex>
+      <lex comment="good" lid="Id2">A.E Dimitia Efxeinoupolis were in the 2014 season.</lex>
+      <lex comment="good" lid="Id3">A.E Dimitra Efxeinoupolis played in season 2014.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id7" size="1">
+      <originaltripleset>
+        <otriple>A.E_Dimitra_Efxeinoupolis | season | 2014–15_A_EPSTH,_Greece</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.E_Dimitra_Efxeinoupolis | season | 2014–15_A_EPSTH,_Greece</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">A.E Dimitra Efxeinoupolis were in the 2014–15 A EPSTH. Greece season.</lex>
+      <lex comment="good" lid="Id2">A.E Dimitra Efxeinoupolis were in the 2014-15 A EPSTH, Greece.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id8" size="1">
+      <originaltripleset>
+        <otriple>A.F.C._Blackpool | capacity | "1500"^^xsd:nonNegativeInteger</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.F.C._Blackpool | numberOfMembers | 1500</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">A.F.C. Blackpool has 1500 members.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id9" size="1">
+      <originaltripleset>
+        <otriple>A.F.C._Fylde | ground | The_Fylde</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.F.C._Fylde | ground | The_Fylde</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Fylde is the home ground of AFC Fylde.</lex>
+      <lex comment="good" lid="Id2">AFC Fylde has the home ground called The Fylde.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id10" size="1">
+      <originaltripleset>
+        <otriple>A.S._Gubbio_1910 | ground | Italy</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.S._Gubbio_1910 | ground | Italy</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The ground of A.S. Gubbio 1910 is located in Italy.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id11" size="1">
+      <originaltripleset>
+        <otriple>A.S._Livorno_Calcio | capacity | 19238</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.S._Livorno_Calcio | numberOfMembers | 19238</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">A.S. Livorno Calcio has 19238 members.</lex>
+      <lex comment="good" lid="Id2">The AS Livorno Calcio has 19238 members.</lex>
+      <lex comment="good" lid="Id3">The A.S. Livorno Calcio has 19238 members.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id12" size="1">
+      <originaltripleset>
+        <otriple>A.S._Roma | season | 2014–15_Serie_A</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A.S._Roma | season | 2014–15_Serie_A</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">A.S. Roma were in Serie A in 2014-15.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id13" size="1">
+      <originaltripleset>
+        <otriple>AFC_Ajax | manager | Frank_de_Boer</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AFC_Ajax | manager | Frank_de_Boer</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Frank de Boer manages the AFC Ajax team.</lex>
+      <lex comment="good" lid="Id2">AFC Ajax's manager is Frank de Boer.</lex>
+      <lex comment="good" lid="Id3">The manager of AFC Ajax is Frank de Boer.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id14" size="1">
+      <originaltripleset>
+        <otriple>AFC_Ajax_(amateurs) | nickname | "Joden , Godenzonen"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AFC_Ajax_(amateurs) | nickname | "Joden , Godenzonen"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AFC Ajax (amateurs) have the nickname "Joden , Godenzonen".</lex>
+      <lex comment="good" lid="Id2">The AFC Ajax team's nickname is Joden, Godenzonen.</lex>
+      <lex comment="good" lid="Id3">AFC Ajax (amateurs) nickname is Joden, Godenzonen.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id15" size="1">
+      <originaltripleset>
+        <otriple>AFC_Ajax_(amateurs) | capacity | "5000"^^xsd:nonNegativeInteger</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AFC_Ajax_(amateurs) | numberOfMembers | 5000</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AFC Ajax has 5000 Members.</lex>
+      <lex comment="good" lid="Id2">AFC Ajax (amateurs) has 5000 members.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id16" size="1">
+      <originaltripleset>
+        <otriple>AZAL_PFK | location | "Shuvalan, Baku, Azerbaijan"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AZAL_PFK | location | "Shuvalan, Baku, Azerbaijan"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AZAL PFK is located at Shuvalan, Baku, Azerbaijan.</lex>
+      <lex comment="good" lid="Id2">AZAL PFK is located in Shuvalan, Baku, Azerbaijan.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id17" size="1">
+      <originaltripleset>
+        <otriple>AZ_Alkmaar | capacity | "17023"^^xsd:nonNegativeInteger</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AZ_Alkmaar | numberOfMembers | 17023</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AZ Alkmaar has 17023 members.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id18" size="1">
+      <originaltripleset>
+        <otriple>Agremiação_Sportiva_Arapiraquense | manager | Vica</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Agremiação_Sportiva_Arapiraquense | manager | Vica</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Agremiacao Sportiva Arapiraquense are managed by Vica.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id19" size="1">
+      <originaltripleset>
+        <otriple>Agremiação_Sportiva_Arapiraquense | season | 2015_Campeonato_Brasileiro_Série_C</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Agremiação_Sportiva_Arapiraquense | season | 2015_Campeonato_Brasileiro_Série_C</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Agremiação Sportiva Arapiraquense competed in the 2015 Campeonato Brasileiro Série C.</lex>
+      <lex comment="good" lid="Id2">Agremiacao Sportiva Arapiraquense were in Campeonato Brasileiro Serie C in 2015.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id20" size="1">
+      <originaltripleset>
+        <otriple>Akron_Summit_Assault | ground | St._Vincent–St._Mary_High_School</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Akron_Summit_Assault | ground | St._Vincent–St._Mary_High_School</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Akron Summit Assault's ground is St. Vincent-St. Mary High School.</lex>
+      <lex comment="good" lid="Id2">St Vincent-St Mary High School is the ground of Akron Summit Assault.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id21" size="1">
+      <originaltripleset>
+        <otriple>Akron_Summit_Assault | capacity | "3000"^^xsd:nonNegativeInteger</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Akron_Summit_Assault | numberOfMembers | 3000</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Akron Summit Assault has 3000 members.</lex>
+      <lex comment="good" lid="Id2">Akron Summit Assault has got 3000 members.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id22" size="1">
+      <originaltripleset>
+        <otriple>Amsterdam | part | Amsterdam-Centrum</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Amsterdam | p | Amsterdam-Centrum</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Amsterdam | part | Amsterdam-Centrum</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Amsterdam-Centrum is part of Amsterdam.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id23" size="1">
+      <originaltripleset>
+        <otriple>Greece | leaderName | Nikos_Voutsis</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Greece | leader | Nikos_Voutsis</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Greece | leader | Nikos_Voutsis</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The leader of Greece is Nikos Voutsis.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id24" size="1">
+      <originaltripleset>
+        <otriple>Gus_Poyet | team | AEK_Athens_F.C.</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Gus_Poyet | club | AEK_Athens_F.C.</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Gus Poyet is in AEK Athens F.C.</lex>
+      <lex comment="good" lid="Id2">Gus Poyet plays for AEK Athens F.C.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id25" size="1">
+      <originaltripleset>
+        <otriple>Jens_Härtel | managerClub | SV_Germania_Schöneiche</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Jens_Härtel | clubs | SV_Germania_Schöneiche</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Jens_Härtel | club | SV_Germania_Schöneiche</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Jens Hartel plays for SV Germania Schoneiche.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id26" size="1">
+      <originaltripleset>
+        <otriple>John_van_den_Brom | team | AZ_Alkmaar</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>John_van_den_Brom | managerClub | AZ_Alkmaar</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>John_van_den_Brom | club | AZ_Alkmaar</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">John van den Brom plays at the AZ Alkmaar club.</lex>
+      <lex comment="good" lid="Id2">John van den Brom plays for AZ Alkmaar.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id27" size="1">
+      <originaltripleset>
+        <otriple>Jorge_Humberto_Rodríguez | team | A.D._Isidro_Metapán</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Jorge_Humberto_Rodríguez | managerClub | A.D._Isidro_Metapán</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Jorge_Humberto_Rodríguez | clubs | A.D._Isidro_Metapán</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Jorge_Humberto_Rodríguez | club | A.D._Isidro_Metapán</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Jorge Humberto Rodriguez's club is A.D. Isidro Metapan.</lex>
+      <lex comment="good" lid="Id2">Jorge Humberto Rodríguez is with the A.D. Isidro Metapán club.</lex>
+      <lex comment="good" lid="Id3">Jorge Humberto Rodríguez was a member of the club A.D. Isidro Metapán.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id28" size="1">
+      <originaltripleset>
+        <otriple>Massimo_Drago | team | Delfino_Pescara_1936</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Massimo_Drago | club | Delfino_Pescara_1936</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Massimo Drago is attached to the club Delfino Pescara 1936.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id29" size="1">
+      <originaltripleset>
+        <otriple>Massimo_Drago | clubs | S.S._Chieti_Calcio</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Massimo_Drago | team | S.S._Chieti_Calcio</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Massimo_Drago | club | S.S._Chieti_Calcio</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Massimo Drago plays for S.S.Chieti Calcio.</lex>
+      <lex comment="good" lid="Id2">Massimo Drago's club is the S.S. Chieti Calcio.</lex>
+      <lex comment="good" lid="Id3">Massimo Drago plays for S.S. Chieti Calcio.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id30" size="1">
+      <originaltripleset>
+        <otriple>Olympic_Stadium_(Athens) | location | Marousi</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Olympic_Stadium_(Athens) | location | Marousi</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Olympic Stadium (Athens) is located at Marousi.</lex>
+      <lex comment="good" lid="Id2">The Olympic Stadium (Athens) is located in Marousi.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id31" size="1">
+      <originaltripleset>
+        <otriple>Premier_Development_League | champions | K-W_United_FC</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Premier_Development_League | champions | K-W_United_FC</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">K-W United FC have been champions of the Premier Development League.</lex>
+      <lex comment="good" lid="Id2">K-W United FC were champions at the Premier Development League.</lex>
+    </entry>
+    <entry category="SportsTeam" eid="Id32" size="1">
+      <originaltripleset>
+        <otriple>Stuart_Parker_(footballer) | team | Bury_F.C.</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Stuart_Parker_(footballer) | club | Bury_F.C.</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Stuart Parker played football for Bury FC.</lex>
+      <lex comment="good" lid="Id2">The footballer Stuart Parker plays for the Bury FC.</lex>
+    </entry>
+        <entry category="Astronaut" eid="Id1" size="1">
+      <originaltripleset>
+        <otriple>Alan_Shepard | awards | Distinguished_Service_Medal_(United_States_Navy)</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alan_Shepard | awards | Distinguished_Service_Medal_(United_States_Navy)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The United States Navy awarded the Distinguished Service Medal to Alan Shepard.</lex>
+      <lex comment="good" lid="Id2">Alan Shepard was awarded the Distinguished Service Medal by the United States Navy.</lex>
+      <lex comment="good" lid="Id3">Alan Shepard was awarded the Distinguished Service Medal in the United States Navy.</lex>
+      <lex comment="good" lid="Id4">Alan Shepard was awarded the Distinguished Service Medal by the US Navy.</lex>
+      <lex comment="good" lid="Id5">Alan Shepard was awarded the United States Navy Distinguished Service Medal.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id2" size="1">
+      <originaltripleset>
+        <otriple>Alan_Shepard | deathPlace | California</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alan_Shepard | deathPlace | California</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Alan Shepard died in California.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id3" size="1">
+      <originaltripleset>
+        <otriple>Apollo_11 | crew2Up | William_Anders</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Apollo_11 | backup pilot | William_Anders</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">William Anders was the backup pilot on Apollo 11.</lex>
+      <lex comment="good" lid="Id2">William Anders was a backup pilot on the Apollo 11 mission.</lex>
+      <lex comment="good" lid="Id3">Apollo 11's backup pilot was William Anders.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id4" size="1">
+      <originaltripleset>
+        <otriple>Apollo_14 | operator | NASA</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Apollo_14 | operator | NASA</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Apollo 14 was operated by NASA.</lex>
+      <lex comment="good" lid="Id2">NASA operated the Apollo 14.</lex>
+      <lex comment="good" lid="Id3">Apollo 14 was operated by NASA.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id5" size="1">
+      <originaltripleset>
+        <otriple>Apollo_8 | operator | NASA</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Apollo_8 | operator | NASA</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Apollo 8 operator is NASA.</lex>
+      <lex comment="good" lid="Id2">Apollo 8 is operated by Nasa.</lex>
+      <lex comment="good" lid="Id3">Apollo 8 was operated by NASA.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id6" size="1">
+      <originaltripleset>
+        <otriple>Buzz_Aldrin | nationality | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Buzz_Aldrin | nationality | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Buzz Aldrin's nationality is United States.</lex>
+      <lex comment="good" lid="Id2">Buzz Aldrin was a United States national.</lex>
+      <lex comment="good" lid="Id3">Buzz Aldrin was an American.</lex>
+      <lex comment="good" lid="Id4">Buzz Aldrin is a US national.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id7" size="1">
+      <originaltripleset>
+        <otriple>Elliot_See | occupation | Test_pilot</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Elliot_See | occupation | Test_pilot</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Elliot See was a test pilot.</lex>
+      <lex comment="good" lid="Id2">Elliot See served as a test pilot.</lex>
+      <lex comment="good" lid="Id3">Elliot See flew as a test pilot.</lex>
+      <lex comment="good" lid="Id4">Elliot See's occupation was a test pilot.</lex>
+      <lex comment="good" lid="Id5">Elliot See performed as a test pilot.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id8" size="1">
+      <originaltripleset>
+        <otriple>University_of_Texas_at_Austin | affiliations | University_of_Texas_System</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>University_of_Texas_at_Austin | affiliations | University_of_Texas_System</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The university of texas at Austin is affiliated to the university of texas system.</lex>
+    </entry>
+    <entry category="Astronaut" eid="Id9" size="1">
+      <originaltripleset>
+        <otriple>University_of_Texas_at_Austin | mascot | Hook_'em_(mascot)</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>University_of_Texas_at_Austin | mascot | Hook_'em_(mascot)</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The University of Texas at Austin's mascot is called Hook'em.</lex>
+      <lex comment="good" lid="Id2">Hook'em is the mascot for the University of Texas at Austin.</lex>
+      <lex comment="good" lid="Id3">The mascot of the University of Texas is Hook'em.</lex>
+      <lex comment="good" lid="Id4">The Hook 'em is the mascot of University of Texas at Austin.</lex>
+    </entry>
+        <entry category="WrittenWork" eid="Id1" size="1">
+      <originaltripleset>
+        <otriple>1634:_The_Bavarian_Crisis | author | Eric_Flint</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>1634:_The_Bavarian_Crisis | author | Eric_Flint</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Eric Flint is the author of 1634: The Bavarian Crisis.</lex>
+      <lex comment="good" lid="Id2">1634: The Bavarian Crisis was written by Eric Flint.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id2" size="1">
+      <originaltripleset>
+        <otriple>1634:_The_Bavarian_Crisis | previousWork | The_Grantville_Gazettes</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>1634:_The_Bavarian_Crisis | precededBy | The_Grantville_Gazettes</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>1634:_The_Bavarian_Crisis | precededBy | The_Grantville_Gazettes</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">1634: The Bavarian crisis is the sequel to The Grantville Gazettes.</lex>
+      <lex comment="good" lid="Id2">1634: The Bavarian Crisis is preceded by The Grantville Gazettes.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id3" size="1">
+      <originaltripleset>
+        <otriple>1634:_The_Ram_Rebellion | subsequentWork | 1635:_The_Cannon_Law</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>1634:_The_Ram_Rebellion | followedBy | 1635:_The_Cannon_Law</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">1634: The Ram Rebellion was followed by 1635: The Cannon Law.</lex>
+      <lex comment="good" lid="Id2">1634: The Ram Rebellion is followed by 1635: The Cannon Law.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id4" size="1">
+      <originaltripleset>
+        <otriple>AIP_Advances | eissn | 2158</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>AIP_Advances | EISSN_number | 2158</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">AIP Advances had the EISSNnumber 2158.</lex>
+      <lex comment="good" lid="Id2">The EISSN number of AIP Advances is 2158.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id5" size="1">
+      <originaltripleset>
+        <otriple>A_Fortress_of_Grey_Ice | mediaType | Hardcover</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A_Fortress_of_Grey_Ice | mediaType | Hardcover</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">A Fortress of Grey Ice is a hardcover book.</lex>
+      <lex comment="good" lid="Id2">A Fortress of Grey Ice was made in hardcover.</lex>
+      <lex comment="good" lid="Id3">A Fortress of Grey Ice was produced in Hardcover.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id6" size="1">
+      <originaltripleset>
+        <otriple>A_Long_Long_Way | isbn | "0-670-03380-4"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A_Long_Long_Way | ISBN_number | "0-670-03380-4"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The ISBN number of A Long Long Way is 0-670-03380-4.</lex>
+      <lex comment="good" lid="Id2">The ISBN number to A Long Long Way is 0-670-03380-4.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id7" size="1">
+      <originaltripleset>
+        <otriple>A_Loyal_Character_Dancer | isbn | "1-56947-301-3"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A_Loyal_Character_Dancer | ISBN_number | "1-56947-301-3"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The book, A Loyal Character Dancer, has the ISBN number of 1-56947-301-3.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id8" size="1">
+      <originaltripleset>
+        <otriple>A_Severed_Wasp | author | Madeleine_L'Engle</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A_Severed_Wasp | author | Madeleine_L'Engle</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Madeleine L'Engle wrote "A Severed Wasp".</lex>
+      <lex comment="good" lid="Id2">Madeleine L'Engle is the author of A Severed Wasp.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id9" size="1">
+      <originaltripleset>
+        <otriple>A_Wizard_of_Mars | language | English_language</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>A_Wizard_of_Mars | language | English_language</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">A Wizard of Mars is published in English.</lex>
+      <lex comment="good" lid="Id2">A Wizard of Mars is written in English.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id10" size="1">
+      <originaltripleset>
+        <otriple>Abhandlungen_aus_dem_Mathematischen_Seminar_der_Universität_Hamburg | lccn | "32024459"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Abhandlungen_aus_dem_Mathematischen_Seminar_der_Universität_Hamburg | LCCN_number | 32024459</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Abhandlungen aus dem Mathematischen Seminar der Universität Hamburg has the LCCN number 32024459.</lex>
+      <lex comment="good" lid="Id2">The Abhandlungen aus dem Mathematischen Seminar der Universität Hamburg has an LCCN number of 32024459.</lex>
+      <lex comment="good" lid="Id3">The LCCN number of Abhandlungen aus dem Mathematischen Seminar der Universität Hamburg is 32024459.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id11" size="1">
+      <originaltripleset>
+        <otriple>Above_the_Veil | mediaType | Hardcover</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Above_the_Veil | mediaType | Hardcover</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Above the Veil is available in hardcover.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id12" size="1">
+      <originaltripleset>
+        <otriple>Acta_Mathematica_Hungarica | abbreviation | "Acta Math. Hungar."@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Acta_Mathematica_Hungarica | abbreviation | "Acta Math. Hungar."</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Acta Mathematica Hungarica is also known as Acta Math. Hungar.</lex>
+      <lex comment="good" lid="Id2">Acta Mathematica Hungarica has the abbreviation of "Acta Math. Hungar.".</lex>
+      <lex comment="good" lid="Id3">The abbreviation of Acta Mathematica Hungarica is Acta Math. Hungar.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id13" size="1">
+      <originaltripleset>
+        <otriple>Acta_Mathematica_Hungarica | discipline | Mathematics</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Acta_Mathematica_Hungarica | academicDiscipline | Mathematics</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Acta Mathematica Hungarica covers the academic discipline of Mathematics.</lex>
+      <lex comment="good" lid="Id2">The Acta Mathematica Hungarica discipline is Math.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id14" size="1">
+      <originaltripleset>
+        <otriple>Acta_Palaeontologica_Polonica | coden | "APGPAC"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Acta_Palaeontologica_Polonica | CODEN_code | "APGPAC"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Acta Palaeontologica Polonica has the CODEN code APGPAC.</lex>
+      <lex comment="good" lid="Id2">The Acta Palaeontologica Polonica CODEN code is "APGPAC".</lex>
+      <lex comment="good" lid="Id3">The CODEN code for the Acta Palaeontologica Polonica is APGPAC.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id15" size="1">
+      <originaltripleset>
+        <otriple>Addiction_(journal) | oclc | "27367194"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Addiction_(journal) | OCLC_number | 27367194</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The OCLC number of Addiction (journal) is 27367194.</lex>
+      <lex comment="good" lid="Id2">The OCLC number for Addiction journal is 27367194.</lex>
+      <lex comment="good" lid="Id3">Addiction (journal) has an OCLC number 27367194.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id16" size="1">
+      <originaltripleset>
+        <otriple>Addiction_(journal) | publisher | Wiley-Blackwell</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Addiction_(journal) | publisher | Wiley-Blackwell</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Wiley-Blackwell is the publisher of the journal Addiction.</lex>
+      <lex comment="good" lid="Id2">Wiley-Blackwell is the publisher of Addiction (journal).</lex>
+      <lex comment="good" lid="Id3">Addiction journal is published by Wiley-Blackwell.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id17" size="1">
+      <originaltripleset>
+        <otriple>Administrative_Science_Quarterly | lccn | 57059226</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Administrative_Science_Quarterly | LCCN_number | 57059226</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The LCCN number of the Administrative Science Quarterly is 57059226.</lex>
+      <lex comment="good" lid="Id2">Administrative Science Quarterly's LLCN number is 57059226.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id18" size="1">
+      <originaltripleset>
+        <otriple>Aenir | oclc | "45644811"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Aenir | OCLC_number | 45644811</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">OCLC number 45644811 is Aenir.</lex>
+      <lex comment="good" lid="Id2">OCLC number 45644811 is for Aenir.</lex>
+      <lex comment="good" lid="Id3">The OCLC number of Aenir is 45644811.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id19" size="1">
+      <originaltripleset>
+        <otriple>Alcatraz_Versus_the_Evil_Librarians | oclc | "78771100"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alcatraz_Versus_the_Evil_Librarians | OCLC_number | 78771100</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Alcatraz Versus The Evil Librarian OCLC number is 78771100.</lex>
+      <lex comment="good" lid="Id2">Alcatraz Versus the Evil Librarians has the OCLC number of 7877110.</lex>
+      <lex comment="good" lid="Id3">Alcatraz Versus the Evil Librarians has an OCLC number of 78771100.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id20" size="1">
+      <originaltripleset>
+        <otriple>Alcatraz_Versus_the_Evil_Librarians | followedBy | Alcatraz_Versus_the_Scrivener's_Bones</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Alcatraz_Versus_the_Evil_Librarians | subsequentWork | Alcatraz_Versus_the_Scrivener's_Bones</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alcatraz_Versus_the_Evil_Librarians | followedBy | Alcatraz_Versus_the_Scrivener's_Bones</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The book Alcatraz Versus the Evil Librarians is followed by the book Alcatraz Versus the Scrivener's Bones.</lex>
+      <lex comment="good" lid="Id2">Alcatraz Versus the Evil Librarians was followed by Alcatraz Versus the Scrivener's Bones.</lex>
+      <lex comment="good" lid="Id3">Alcatraz versus the Evil Librarians is followed by Alcatraz Versus the Scrivener's Bones.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id21" size="1">
+      <originaltripleset>
+        <otriple>American_Journal_of_Mathematics | impact | "1.337"^^xsd:double</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>American_Journal_of_Mathematics | impactFactor | "1.337"^^xsd:double</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>American_Journal_of_Mathematics | impactFactor | "1.337"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The impact factor of the American Journal of Mathematics is 1.337.</lex>
+      <lex comment="good" lid="Id2">The American Journal of Mathematics has an impact Factor of 1.337.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id22" size="1">
+      <originaltripleset>
+        <otriple>Castle_(novel) | subsequentWork | Aenir</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Castle_(novel) | followedBy | Aenir</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Castle_(novel) | followedBy | Aenir</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The novel Castle is followed by Aenir.</lex>
+      <lex comment="good" lid="Id2">Aenir followed the novel Castle.</lex>
+      <lex comment="good" lid="Id3">Castle is followed by Aenir.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id23" size="1">
+      <originaltripleset>
+        <otriple>Cornell_University | nickname | Cornell_Big_Red</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Cornell_University | nickname | Cornell_Big_Red</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Cornwell University is nicknamed Cornell Big Red.</lex>
+      <lex comment="good" lid="Id2">Cornell Big Red is the nickname of Cornell University.</lex>
+      <lex comment="good" lid="Id3">Cornell Big Red is the nickname for Cornell University.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id24" size="1">
+      <originaltripleset>
+        <otriple>HIV | genus | Lentivirus</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>HIV | genus | Lentivirus</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The HIV virus is from the genus Lentivirus.</lex>
+      <lex comment="good" lid="Id2">HIV is genus Lentivirus.</lex>
+      <lex comment="good" lid="Id3">HIV genus is categorised as Lentivirus.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id25" size="1">
+      <originaltripleset>
+        <otriple>John_Cowper_Powys | notableWork | Wolf_Solent</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>John_Cowper_Powys | notableWork | Wolf_Solent</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Wolf Solent is a notable work by John Cowper Powys.</lex>
+      <lex comment="good" lid="Id2">Wolf Solent is one of John Cowper Powys notable works.</lex>
+      <lex comment="good" lid="Id3">Wolf Solent is a notable work of author John Cowper Powys.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id26" size="1">
+      <originaltripleset>
+        <otriple>United_Kingdom | leaderName | Elizabeth_II</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>United_Kingdom | leader | Elizabeth_II</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>United_Kingdom | leaderName | Elizabeth_II</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Elizabeth II is a leader in the United Kingdom.</lex>
+      <lex comment="good" lid="Id2">The leader of the United Kingdom is Elizabeth II.</lex>
+      <lex comment="good" lid="Id3">Elizabeth II is the leader in the UK.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id27" size="1">
+      <originaltripleset>
+        <otriple>United_States | leader | Joe_Biden</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>United_States | leaderName | Joe_Biden</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Joe Biden is a United States leader.</lex>
+      <lex comment="good" lid="Id2">Joe Biden is a leader in the U.S.</lex>
+      <lex comment="good" lid="Id3">A leader in the United States is Joe Biden.</lex>
+    </entry>
+    <entry category="WrittenWork" eid="Id28" size="1">
+      <originaltripleset>
+        <otriple>Wolf_Solent | author | John_Cowper_Powys</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Wolf_Solent | author | John_Cowper_Powys</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">John Cowper Powys is the author of Wolf Solent.</lex>
+      <lex comment="good" lid="Id2">John Cowper Powys is the author of "Wolf Solent".</lex>
+    </entry>
+        <entry category="Airport" eid="Id1" size="1">
+      <originaltripleset>
+        <otriple>Aarhus | leaderName | Jacob_Bundsgaard</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Aarhus | leaderName | Jacob_Bundsgaard</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The leader of Aarhus is Jacob Bundsgaard.</lex>
+    </entry>
+    <entry category="Airport" eid="Id2" size="1">
+      <originaltripleset>
+        <otriple>Aarhus_Airport | runwayLength | "2702.0"^^xsd:double</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Aarhus_Airport | runwayLength | 2702.0</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Aarhus Airport's runway length is 2702.0.</lex>
+      <lex comment="good" lid="Id2">The Aarhus Airport has a runway length of 2702.0.</lex>
+    </entry>
+    <entry category="Airport" eid="Id3" size="1">
+      <originaltripleset>
+        <otriple>Adirondack_Regional_Airport | elevationM | 507</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Adirondack_Regional_Airport | elevation | "507.0"^^xsd:double</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Adirondack_Regional_Airport | elevationAboveTheSeaLevel_(in_metres) | 507</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Adirondack Regional Airport is 507 metres above sea level.</lex>
+    </entry>
+    <entry category="Airport" eid="Id4" size="1">
+      <originaltripleset>
+        <otriple>Adirondack_Regional_Airport | location | Harrietstown,_New_York</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Adirondack_Regional_Airport | location | Harrietstown,_New_York</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Adirondack Regional airport is located at Harrietstown, New York.</lex>
+      <lex comment="good" lid="Id2">Adirondack Regional Airport is located in Harrietstown, New York.</lex>
+    </entry>
+    <entry category="Airport" eid="Id5" size="1">
+      <originaltripleset>
+        <otriple>Adolfo_Suárez_Madrid–Barajas_Airport | location | San_Sebastián_de_los_Reyes</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Adolfo_Suárez_Madrid–Barajas_Airport | location | San_Sebastián_de_los_Reyes</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Adolfo Suárez Madrid–Barajas Airport is found in San Sebastián de los Reyes.</lex>
+      <lex comment="good" lid="Id2">Adolfo Suarez Madrid- Barajas airport is located at San Sebastian de los Reyes.</lex>
+      <lex comment="good" lid="Id3">The Adolfo Suárez Madrid–Barajas Airport is in San Sebastián de los Reyes.</lex>
+    </entry>
+    <entry category="Airport" eid="Id6" size="1">
+      <originaltripleset>
+        <otriple>Adolfo_Suárez_Madrid–Barajas_Airport | runwayDesignation | "14L/32R"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Adolfo_Suárez_Madrid–Barajas_Airport | runwayName | "14L/32R"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Adolfo Suárez Madrid-Barajas Airport runway name is 14L/32R.</lex>
+      <lex comment="good" lid="Id2">The Adolfo Suárez Madrid–Barajas Airport runway name is 14L/32R.</lex>
+      <lex comment="good" lid="Id3">14L/32R is the runway name of Adofo Suárez Madrid-Barajas Airport.</lex>
+    </entry>
+    <entry category="Airport" eid="Id7" size="1">
+      <originaltripleset>
+        <otriple>Adolfo_Suárez_Madrid–Barajas_Airport | runwayDesignation | "14R/32L"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Adolfo_Suárez_Madrid–Barajas_Airport | runwayName | "14R/32L"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">14R/32L is the name of the runway for Adolfo Suárez Madrid–Barajas Airport.</lex>
+      <lex comment="good" lid="Id2">14R/32L is the runway name of Adolfo Suárez Madrid-Barajas Airport.</lex>
+    </entry>
+    <entry category="Airport" eid="Id8" size="1">
+      <originaltripleset>
+        <otriple>Afonso_Pena_International_Airport | operator | Infraero</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Afonso_Pena_International_Airport | operatingOrganisation | Infraero</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The operating organization for Afonso Pena International Airport is Infraero.</lex>
+      <lex comment="good" lid="Id2">Afonso Pena International Airport is operated by Infraero.</lex>
+    </entry>
+    <entry category="Airport" eid="Id9" size="1">
+      <originaltripleset>
+        <otriple>Agra_Airport | location | Agra</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Agra_Airport | location | Agra</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Agra Airport is in Agra.</lex>
+      <lex comment="good" lid="Id2">Agra airport is located in Agra.</lex>
+    </entry>
+    <entry category="Airport" eid="Id10" size="1">
+      <originaltripleset>
+        <otriple>Al-Taqaddum_Air_Base | elevation | "83.82"^^xsd:double</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Al-Taqaddum_Air_Base | elevationAboveTheSeaLevel_(in_metres) | 84.0</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Al-Taqaddum Air Base is 84 metres above sea level.</lex>
+      <lex comment="good" lid="Id2">Al Taqaddum Air Base is 84 metres above sea level.</lex>
+      <lex comment="good" lid="Id3">The elevation above the sea level (in metres) of Al-Taqaddum Air Base is 84.0.</lex>
+    </entry>
+    <entry category="Airport" eid="Id11" size="1">
+      <originaltripleset>
+        <otriple>Alderney_Airport | city | Alderney</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Alderney_Airport | cityServed | Alderney</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alderney_Airport | cityServed | Alderney</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Alderney Airport serves Alderney.</lex>
+      <lex comment="good" lid="Id2">Alderney Airport serves the city of Alderney.</lex>
+    </entry>
+    <entry category="Airport" eid="Id12" size="1">
+      <originaltripleset>
+        <otriple>Allama_Iqbal_International_Airport | runwayDesignation | "18R/36L"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Allama_Iqbal_International_Airport | runwayName | "18R/36L"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">18R/36L is the runway name at Allama Iqbal International airport.</lex>
+      <lex comment="good" lid="Id2">Allama Iqbal International Airport has a runway named 18R/36L.</lex>
+      <lex comment="good" lid="Id3">Allama Iqbal International Airport's runway name is "18R/36L".</lex>
+    </entry>
+    <entry category="Airport" eid="Id13" size="1">
+      <originaltripleset>
+        <otriple>Alpena_County_Regional_Airport | runwayLength | "1532.53"^^xsd:double</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alpena_County_Regional_Airport | runwayLength | 1533.0</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The runway length of Alpena County Regional Airport is 1,533.</lex>
+      <lex comment="good" lid="Id2">The runway length of Alpena County Regional airport is 1533.0.</lex>
+    </entry>
+    <entry category="Airport" eid="Id14" size="1">
+      <originaltripleset>
+        <otriple>Alpena_County_Regional_Airport | runwayDesignation | "1/19"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alpena_County_Regional_Airport | runwayName | "1/19"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Alpena Country Regional Airport runway name is 1/19/.</lex>
+      <lex comment="good" lid="Id2">1/19 is the runway name of Alpena County Regional Airport.</lex>
+      <lex comment="good" lid="Id3">The runway name of Alpena County Regional Airport is 1/19.</lex>
+    </entry>
+    <entry category="Airport" eid="Id15" size="1">
+      <originaltripleset>
+        <otriple>Amsterdam_Airport_Schiphol | city | Amsterdam</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Amsterdam_Airport_Schiphol | cityServed | Amsterdam</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Amsterdam_Airport_Schiphol | cityServed | Amsterdam</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Amsterdam Airport Schiphol serves the city of Amsterdam.</lex>
+      <lex comment="good" lid="Id2">Amsterdam airport, Schipol serves the city of Amsterdam.</lex>
+      <lex comment="good" lid="Id3">Amsterdam Airport Schuphol serves Amsterdam.</lex>
+    </entry>
+    <entry category="Airport" eid="Id16" size="1">
+      <originaltripleset>
+        <otriple>Andrews_County,_Texas | countySeat | Andrews,_Texas</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Andrews_County,_Texas | countySeat | Andrews,_Texas</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Andrews County, Texas is country seat to Andrews, Texas.</lex>
+      <lex comment="good" lid="Id2">Andrews, Texas is the country seat of Andrews County, Texas.</lex>
+      <lex comment="good" lid="Id3">Andrews County, Texas has its county seat in Andrews, Texas.</lex>
+    </entry>
+    <entry category="Airport" eid="Id17" size="1">
+      <originaltripleset>
+        <otriple>Andrews_County_Airport | city | Andrews,_Texas</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Andrews_County_Airport | cityServed | Andrews,_Texas</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Andrews Country Airport's city is served by Andrews, Texas.</lex>
+      <lex comment="good" lid="Id2">Andrews County Airport serves Andrews, Texas.</lex>
+      <lex comment="good" lid="Id3">Andrews County Airport serves the city of Andrews in Texas.</lex>
+    </entry>
+    <entry category="Airport" eid="Id18" size="1">
+      <originaltripleset>
+        <otriple>Andrews_County_Airport | runwayDesignation | "11/29"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Andrews_County_Airport | runwayName | "11/29"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Andrews Country Airport runway name is 11/29.</lex>
+      <lex comment="good" lid="Id2">11/29 is the runway name of Andrews County Airport.</lex>
+      <lex comment="good" lid="Id3">The runway name of Andrews County Airport is 11/29.</lex>
+    </entry>
+    <entry category="Airport" eid="Id19" size="1">
+      <originaltripleset>
+        <otriple>Andrews_County_Airport | runwayDesignation | "Helipad"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Andrews_County_Airport | runwayName | "Helipad"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The name of the runway at Andrews County Airport is Helipad.</lex>
+      <lex comment="good" lid="Id2">Helipad is the runway name of Andrews County Airport.</lex>
+      <lex comment="good" lid="Id3">The runway at Andrews County Airport is called Helipad.</lex>
+    </entry>
+    <entry category="Airport" eid="Id20" size="1">
+      <originaltripleset>
+        <otriple>Angola_International_Airport | city | Luanda</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Angola_International_Airport | cityServed | Luanda</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Angola_International_Airport | cityServed | Luanda</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Angola International Airport city served is Luanda.</lex>
+      <lex comment="good" lid="Id2">Angola International Airport serves the city of Luanda.</lex>
+      <lex comment="good" lid="Id3">Angola International Airport serves Luanda.</lex>
+    </entry>
+    <entry category="Airport" eid="Id21" size="1">
+      <originaltripleset>
+        <otriple>Ardmore_Airport_(New_Zealand) | location | Auckland</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Ardmore_Airport_(New_Zealand) | location | Auckland</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Ardmore Airport, New Zealand is in Auckland.</lex>
+      <lex comment="good" lid="Id2">Ardmore Airport is located in Auckland, New Zealand.</lex>
+    </entry>
+    <entry category="Airport" eid="Id22" size="1">
+      <originaltripleset>
+        <otriple>Athens | mayor | Giorgos_Kaminis</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Athens | mayor | Giorgos_Kaminis</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Athens mayor is Giorgos Kaminis.</lex>
+      <lex comment="good" lid="Id2">Giorgos Kaminis is the mayor of Athens.</lex>
+      <lex comment="good" lid="Id3">The mayor of Athens is Giorgos Kaminis.</lex>
+    </entry>
+    <entry category="Airport" eid="Id23" size="1">
+      <originaltripleset>
+        <otriple>Athens_International_Airport | location | Spata</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Athens_International_Airport | location | Spata</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Athens International Airport is in Spata.</lex>
+      <lex comment="good" lid="Id2">Athens International Airport is located in Spata.</lex>
+    </entry>
+    <entry category="Airport" eid="Id24" size="1">
+      <originaltripleset>
+        <otriple>Belgium | language | German_language</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Belgium | language | German_language</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Belgium language is German language.</lex>
+      <lex comment="good" lid="Id2">German is the language of Belgium.</lex>
+      <lex comment="good" lid="Id3">The language spoken is Belgium is German.</lex>
+    </entry>
+    <entry category="Airport" eid="Id25" size="1">
+      <originaltripleset>
+        <otriple>Belgium | leaderName | Philippe_of_Belgium</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Belgium | leader | Philippe_of_Belgium</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Belgium | leaderName | Philippe_of_Belgium</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Philippe of Belgium is the leader of Belgium.</lex>
+      <lex comment="good" lid="Id2">The leader of Belgium is Philippe of Belgium.</lex>
+      <lex comment="good" lid="Id3">The leader of Belgium is Phillipe of Belgium.</lex>
+    </entry>
+    <entry category="Airport" eid="Id26" size="1">
+      <originaltripleset>
+        <otriple>Denmark | capital | Copenhagen</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Denmark | capital | Copenhagen</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The capital of Denmark is Copenhagen.</lex>
+      <lex comment="good" lid="Id2">Copenhagen is the capital of Denmark.</lex>
+    </entry>
+    <entry category="Airport" eid="Id27" size="1">
+      <originaltripleset>
+        <otriple>Denmark | leader | Lars_Løkke_Rasmussen</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Denmark | leaderName | Lars_Løkke_Rasmussen</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Denmark | leaderName | Lars_Løkke_Rasmussen</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Denmark's leader name is Lars Løkke Rasmussen.</lex>
+      <lex comment="good" lid="Id2">Lars Løkke Rasmussen leads Denmark.</lex>
+      <lex comment="good" lid="Id3">Lars Løkke Rasmussen is the leader of Denmark.</lex>
+    </entry>
+    <entry category="Airport" eid="Id28" size="1">
+      <originaltripleset>
+        <otriple>Flemish_Region | leaderName | Flemish_Government</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Flemish_Region | leaderName | Flemish_Government</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Flemish region is led by the Flemish government.</lex>
+      <lex comment="good" lid="Id2">The Flemish Government leads the Flemish Region.</lex>
+    </entry>
+    <entry category="Airport" eid="Id29" size="1">
+      <originaltripleset>
+        <otriple>Greece | language | Greek_language</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Greece | language | Greek_language</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Greek is the language spoken in Greece.</lex>
+      <lex comment="good" lid="Id2">The language spoken in Greece is Greek.</lex>
+    </entry>
+    <entry category="Airport" eid="Id30" size="1">
+      <originaltripleset>
+        <otriple>Greece | leader | Nikos_Voutsis</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Greece | leaderName | Nikos_Voutsis</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Greece | leaderName | Nikos_Voutsis</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The leader of Greece is Nikos Voutsis.</lex>
+    </entry>
+    <entry category="Airport" eid="Id31" size="1">
+      <originaltripleset>
+        <otriple>Harrietstown,_New_York | subdivisionName | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Harrietstown,_New_York | isPartOf | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Harrietstown, New York is part of the United States.</lex>
+      <lex comment="good" lid="Id2">Harrietstown, N.Y. is part of the U.S.</lex>
+    </entry>
+    <entry category="Airport" eid="Id32" size="1">
+      <originaltripleset>
+        <otriple>Pakistan | leader | Anwar_Zaheer_Jamali</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Pakistan | leaderName | Anwar_Zaheer_Jamali</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Pakistan | leaderName | Anwar_Zaheer_Jamali</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The leader of Pakistan is Anwar Zaheer Jamali.</lex>
+      <lex comment="good" lid="Id2">Pakistan has a leader called Anwar Zaheer Jamali.</lex>
+    </entry>
+    <entry category="Airport" eid="Id33" size="1">
+      <originaltripleset>
+        <otriple>Paracuellos_de_Jarama | isPartOf | Community_of_Madrid</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Paracuellos_de_Jarama | isPartOf | Community_of_Madrid</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Paracuellos de Jarama is part of the community of Madrid.</lex>
+    </entry>
+    <entry category="Airport" eid="Id34" size="1">
+      <originaltripleset>
+        <otriple>Port_Authority_of_New_York_and_New_Jersey | headquarter | Four_World_Trade_Center</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Port_Authority_of_New_York_and_New_Jersey | headquarter | Four_World_Trade_Center</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Port Authority of New York and New Jersey headquarter is Four World Trade Center.</lex>
+      <lex comment="good" lid="Id2">The Four World Trade Center is the headquarters of the Port Authority of New York and New Jersey.</lex>
+    </entry>
+    <entry category="Airport" eid="Id35" size="1">
+      <originaltripleset>
+        <otriple>San_Sebastián_de_los_Reyes | country | Spain</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>San_Sebastián_de_los_Reyes | country | Spain</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">San Sebastián de los Reyes is in Spain.</lex>
+      <lex comment="good" lid="Id2">San Sebastian de los Reyes is located in Spain.</lex>
+    </entry>
+    <entry category="Airport" eid="Id36" size="1">
+      <originaltripleset>
+        <otriple>Saranac_Lake,_New_York | subdivisionName | United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Saranac_Lake,_New_York | isPartOf | United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Saranac Lake, New York is part of the United States.</lex>
+      <lex comment="good" lid="Id2">Saranac Lake, New York, is part of the United States.</lex>
+    </entry>
+    <entry category="Airport" eid="Id37" size="1">
+      <originaltripleset>
+        <otriple>South_Jersey_Transportation_Authority | chief1Name | Stephen_Dilts</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>South_Jersey_Transportation_Authority | chief | Stephen_Dilts</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">South Jersey Transportation Authority chief is Stephen Dilts.</lex>
+      <lex comment="good" lid="Id2">Stephen Dilts is the chief of the South Jersey Transportation Authority.</lex>
+      <lex comment="good" lid="Id3">Stephen Dilts is the chief of South Jersey Transportation Authority.</lex>
+    </entry>
+    <entry category="University" eid="Id1" size="1">
+      <originaltripleset>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | facultySize | "100"^^xsd:nonNegativeInteger</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Accademia_di_Architettura_di_Mendrisio | faculty | 100</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Accademia_di_Architettura_di_Mendrisio | academicStaffSize | 100</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The academic staff size of Accademia di Architettura di Mendrisio is 100.</lex>
+      <lex comment="good" lid="Id2">The academic staff number 100 at the Accademia di Architettura di Mendrisio.</lex>
+      <lex comment="good" lid="Id3">The Accademia di Architettura di Mendrisio has an academic staff of 100.</lex>
+    </entry>
+    <entry category="University" eid="Id2" size="1">
+      <originaltripleset>
+        <otriple>Acharya_Institute_of_Technology | campus | "Urban, ,\nIn Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore – 560090."@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Acharya_Institute_of_Technology | campus | "In Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore – 560090."</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The campus address for the Acharya Institue of Technology is: Soldenvanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore - 560090.</lex>
+      <lex comment="good" lid="Id2">The Acharya Institute of Technology campus is located in Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore – 560090.</lex>
+      <lex comment="good" lid="Id3">The campus of the Acharya Institute of Technology is located at Soldevanahalli, Acharya Dr. Sarvapalli Radhakrishnan Road, Hessarghatta Main Road, Bangalore – 560090.</lex>
+    </entry>
+    <entry category="University" eid="Id3" size="1">
+      <originaltripleset>
+        <otriple>Alba_Iulia | country | Romania</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alba_Iulia | country | Romania</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Alba Iulia is located in Romania.</lex>
+      <lex comment="good" lid="Id2">Alba Iulia is in the country of Romania.</lex>
+      <lex comment="good" lid="Id3">Alba Iulia is in Romania.</lex>
+    </entry>
+    <entry category="University" eid="Id4" size="1">
+      <originaltripleset>
+        <otriple>Alba_Iulia | isPartOf | Alba_County</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alba_Iulia | isPartOf | Alba_County</mtriple>
+      </modifiedtripleset>
+      <lex comment="toFix" lid="Id1">Alba Iulia os part of the county of Alba.</lex>
+      <lex comment="good" lid="Id2">Alba lulia is part of Alba County.</lex>
+      <lex comment="good" lid="Id3">Alba Iulia is part of Alba County.</lex>
+    </entry>
+    <entry category="University" eid="Id5" size="1">
+      <originaltripleset>
+        <otriple>Romania | patronSaint | Andrew_the_Apostle</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Romania | patronSaint | Andrew_the_Apostle</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The patron Saint of Romania is Andrew the Apostle.</lex>
+      <lex comment="good" lid="Id2">Andrew the Apostle is the patron saint of Romania.</lex>
+    </entry>
+    <entry category="University" eid="Id6" size="1">
+      <originaltripleset>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | facultySize | "737"^^xsd:nonNegativeInteger</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | faculty | 737</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>School of Business and Social Sciences at the Aarhus University | academicStaffSize | 737</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The academic staff of the School of Business and Social Sciences at the Aarhus University number 737.</lex>
+      <lex comment="good" lid="Id2">The School of Business and Social Sciences at the Aarhus University has academic staff size of 737.</lex>
+      <lex comment="good" lid="Id3">The School of Business and Social Sciences at the Aarhus University has an academic staff of 737.</lex>
+    </entry>
+    <entry category="University" eid="Id7" size="1">
+      <originaltripleset>
+        <otriple>Aarhus_University,_School_of_Business_and_Social_Sciences | country | Denmark</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>School of Business and Social Sciences at the Aarhus University | country | Denmark</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Aarhus University School of Business and Social Sciences is in the country of Denmark.</lex>
+      <lex comment="good" lid="Id2">The School of Business and Social Sciences at the Aarhus University is situated in Denmark.</lex>
+      <lex comment="good" lid="Id3">The School of Business and Social Sciences at the Aarhus University is located in Denmark.</lex>
+      <lex comment="good" lid="Id4">The School of Business and Social Sciences at the Aarhus University is in Denmark.</lex>
+    </entry>
+        <entry category="Building" eid="Id1" size="1">
+      <originaltripleset>
+        <otriple>103_Colmore_Row | architect | John_Madin</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>103_Colmore_Row | architect | John_Madin</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">103 Colmore Row was designed by the architect, John Madin.</lex>
+      <lex comment="good" lid="Id2">103 Colmore Row was designed by the architect John Madin.</lex>
+    </entry>
+    <entry category="Building" eid="Id2" size="1">
+      <originaltripleset>
+        <otriple>103_Colmore_Row | location | Colmore_Row</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>103_Colmore_Row | location | Colmore_Row</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">103 Colmore Row is located at Colmore Row.</lex>
+      <lex comment="good" lid="Id2">103 Colmore Row is located in Colmore Row.</lex>
+    </entry>
+    <entry category="Building" eid="Id3" size="1">
+      <originaltripleset>
+        <otriple>11_Diagonal_Street | buildingEndDate | "1983"</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>11_Diagonal_Street | completionDate | 1983</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>11_Diagonal_Street | completionDate | 1983</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">11 Diagonal Street was completed in 1983.</lex>
+    </entry>
+    <entry category="Building" eid="Id4" size="1">
+      <originaltripleset>
+        <otriple>200_Public_Square | buildingEndDate | "1985"</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>200_Public_Square | completionDate | 1985</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>200_Public_Square | completionDate | 1985</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The 200 Public Square was completed in 1985.</lex>
+      <lex comment="good" lid="Id2">200 Public Square was completed in 1985.</lex>
+    </entry>
+    <entry category="Building" eid="Id5" size="1">
+      <originaltripleset>
+        <otriple>20_Fenchurch_Street | buildingStartDate | "January 2009"</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>20_Fenchurch_Street | startDate | "January 2009"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>20_Fenchurch_Street | buildingStartDate | "January 2009"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The building at 20 Fenchurch Street was started in January 2009.</lex>
+      <lex comment="good" lid="Id2">The construction of 20 Fenchurch Street began in January 2009.</lex>
+    </entry>
+    <entry category="Building" eid="Id6" size="1">
+      <originaltripleset>
+        <otriple>20_Fenchurch_Street | location | United_Kingdom</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>20_Fenchurch_Street | location | United_Kingdom</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">20 Fenchurch Street is located in the United Kingdom.</lex>
+      <lex comment="good" lid="Id2">20 Fenchurch Street is located within the United Kingdom.</lex>
+    </entry>
+    <entry category="Building" eid="Id7" size="1">
+      <originaltripleset>
+        <otriple>300_North_LaSalle | floorCount | "60"^^xsd:positiveInteger</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>300_North_LaSalle | floorCount | 60</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">There are 60 floors at 300 North LaSalle.</lex>
+      <lex comment="good" lid="Id2">300 North LaSalle has 60 floors.</lex>
+    </entry>
+    <entry category="Building" eid="Id8" size="1">
+      <originaltripleset>
+        <otriple>3Arena | architect | "HOK SVE"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>3Arena | architect | "HOK SVE"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">HOK SVE was the architect of 3Arena.</lex>
+      <lex comment="good" lid="Id2">HOK SVE was the architect of the 3Arena.</lex>
+    </entry>
+    <entry category="Building" eid="Id9" size="1">
+      <originaltripleset>
+        <otriple>3Arena | location | "East Link Bridge"@en</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>3Arena | location | "East Link Bridge"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The 3Arena is located at East Link Bridge.</lex>
+      <lex comment="good" lid="Id2">The 3Arena is located on the East Link Bridge.</lex>
+      <lex comment="good" lid="Id3">3 Arena is located at East Link Bridge.</lex>
+    </entry>
+    <entry category="Building" eid="Id10" size="1">
+      <originaltripleset>
+        <otriple>Adare_Manor | buildingStartDate | "(original structure); 1832 (current structure)"</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Adare_Manor | buildingStartDate | "1700"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Adare Manor's building start was in 1700.</lex>
+      <lex comment="good" lid="Id2">The building of the Adare Manor was started in 1700.</lex>
+    </entry>
+    <entry category="Building" eid="Id11" size="1">
+      <originaltripleset>
+        <otriple>Adare_Manor | locationCountry | Republic_of_Ireland</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Adare_Manor | country | Republic_of_Ireland</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Adare_Manor | country | Republic_of_Ireland</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Adare Manor is located in the Republic of Ireland.</lex>
+      <lex comment="good" lid="Id2">The Adare Manor is in the Republic of Ireland.</lex>
+    </entry>
+    <entry category="Building" eid="Id12" size="1">
+      <originaltripleset>
+        <otriple>Akita_Museum_of_Art | openingDate | "2013-09-28"^^xsd:date</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Akita_Museum_of_Art | inaugurationDate | "2013-09-28"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Akita Museum of Art was inaugurated on 28th September 2013.</lex>
+    </entry>
+    <entry category="Building" eid="Id13" size="1">
+      <originaltripleset>
+        <otriple>Alan_B._Miller_Hall | currentTenants | Mason_School_of_Business</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Alan_B._Miller_Hall | currentTenants | Mason_School_of_Business</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Mason School of Business are the current tenants of Alan B Miller Hall.</lex>
+    </entry>
+    <entry category="Building" eid="Id14" size="1">
+      <originaltripleset>
+        <otriple>Amdavad_ni_Gufa | architect | B._V._Doshi</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Amdavad_ni_Gufa | architect | B._V._Doshi</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The architecct B V Doshi designed Amdavad Ni Gufa.</lex>
+      <lex comment="good" lid="Id2">B V Doshi is the architect who designed Amdavad ni Gufa.</lex>
+    </entry>
+    <entry category="Building" eid="Id15" size="1">
+      <originaltripleset>
+        <otriple>Ampara_Hospital | country | Sri_Lanka</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Ampara_Hospital | country | Sri_Lanka</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Ampara Hospital is located in Sri Lanka.</lex>
+      <lex comment="good" lid="Id2">Ampara Hospital is in Sri Lanka.</lex>
+    </entry>
+    <entry category="Building" eid="Id16" size="1">
+      <originaltripleset>
+        <otriple>Asher_and_Mary_Isabelle_Richardson_House | added | "1988-11-22"^^xsd:date</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Asher_and_Mary_Isabelle_Richardson_House | added to the National Register of Historic Places | "1988-11-22"</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Asher and Mary Isabelle Richardson House was added to the National Register of Historic Places on "1988-11-22".</lex>
+      <lex comment="good" lid="Id2">The Asher and Mary Isabelle Richardson House was added to the National Register of Historic Places, on 22nd November 1988.</lex>
+    </entry>
+    <entry category="Building" eid="Id17" size="1">
+      <originaltripleset>
+        <otriple>Asser_Levy_Public_Baths | built | 1904</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Asser_Levy_Public_Baths | yearOfConstruction | "1904"^^xsd:gYear</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Asser_Levy_Public_Baths | yearOfConstruction | 1904</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The Asser Levy Public Baths was built in 1904.</lex>
+      <lex comment="good" lid="Id2">Asser Levy Public Baths were constructed in 1904.</lex>
+    </entry>
+    <entry category="Building" eid="Id18" size="1">
+      <originaltripleset>
+        <otriple>Birmingham | postalCode | B_postcode_area</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Birmingham | postalCode | B_postcode_area</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Birmingham has the postcode area 'B'.</lex>
+      <lex comment="good" lid="Id2">The B postcode area is the postal code of Birmingham.</lex>
+    </entry>
+    <entry category="Building" eid="Id19" size="1">
+      <originaltripleset>
+        <otriple>Chicago | isPartOf | DuPage_County,_Illinois</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Chicago | isPartOf | DuPage_County,_Illinois</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Chicago is part of DuPage County in Illinois.</lex>
+      <lex comment="good" lid="Id2">Chicago is part of DuPage County Illinois.</lex>
+    </entry>
+    <entry category="Building" eid="Id20" size="1">
+      <originaltripleset>
+        <otriple>Dublin | country | Republic_of_Ireland</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Dublin | country | Republic_of_Ireland</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Dublin is in the Republic of Ireland.</lex>
+    </entry>
+    <entry category="Building" eid="Id21" size="1">
+      <originaltripleset>
+        <otriple>Dublin | isPartOf | Leinster</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Dublin | subdivisionName | Leinster</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Dublin | isPartOf | Leinster</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Dublin is part of Leinster.</lex>
+    </entry>
+    <entry category="Building" eid="Id22" size="1">
+      <originaltripleset>
+        <otriple>India | leader | Sumitra_Mahajan</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>India | leaderName | Sumitra_Mahajan</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>India | leaderName | Sumitra_Mahajan</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Sumitra Mahajan is an Indian leader.</lex>
+      <lex comment="good" lid="Id2">The name of the leader in India is Sumitra Mahajan.</lex>
+    </entry>
+    <entry category="Building" eid="Id23" size="1">
+      <originaltripleset>
+        <otriple>Japan | ethnicGroup | Brazilians_in_Japan</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Japan | ethnicGroup | Brazilians_in_Japan</mtriple>
+      </modifiedtripleset>
+      <lex comment="toFix" lid="Id1">One of the ethnic groups in Japan in the Brazilians.</lex>
+      <lex comment="toFix" lid="Id2">The Brazilians in Japan are an ethnic group found in Japan.</lex>
+    </entry>
+    <entry category="Building" eid="Id24" size="1">
+      <originaltripleset>
+        <otriple>Japan | leader | Tarō_Asō</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Japan | leaderName | Tarō_Asō</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The leader of Japan is Tarō Asō.</lex>
+    </entry>
+    <entry category="Building" eid="Id25" size="1">
+      <originaltripleset>
+        <otriple>Marriott_International | keyPeople | Bill_Marriott</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Marriott_International | keyPerson | Bill_Marriott</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Marriott_International | keyPerson | Bill_Marriott</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Bill Marriott is the key person at Marriott International.</lex>
+      <lex comment="good" lid="Id2">One of the key people in Marriott International is Bill Marriott.</lex>
+    </entry>
+    <entry category="Building" eid="Id26" size="1">
+      <originaltripleset>
+        <otriple>Republic_of_Ireland | languages | English_language</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>Republic_of_Ireland | language | English_language</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>Republic_of_Ireland | language | English_language</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Ireland official language is Irish English.</lex>
+      <lex comment="toFix" lid="Id2">English language is the main language of the Republic of Ireland.</lex>
+      <lex comment="good" lid="Id3">One language used in the Republic of Ireland is English.</lex>
+    </entry>
+    <entry category="Building" eid="Id27" size="1">
+      <originaltripleset>
+        <otriple>South_Africa | capital | Cape_Town</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>South_Africa | capital | Cape_Town</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Cape Town is the capital of South Africa.</lex>
+      <lex comment="good" lid="Id2">The capital of South Africa is Cape Town.</lex>
+    </entry>
+    <entry category="Building" eid="Id28" size="1">
+      <originaltripleset>
+        <otriple>United_Kingdom | capital | London</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>United_Kingdom | capital | London</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">The capital of the United Kingdom is London.</lex>
+      <lex comment="good" lid="Id2">London is the capital of the United Kingdom.</lex>
+    </entry>
+    <entry category="Building" eid="Id29" size="1">
+      <originaltripleset>
+        <otriple>United_States | ethnicGroup | Native_Americans_in_the_United_States</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>United_States | ethnicGroup | Native_Americans_in_the_United_States</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Native Americans are an ethnic group in the United States.</lex>
+    </entry>
+    <entry category="Building" eid="Id30" size="1">
+      <originaltripleset>
+        <otriple>United_States | leader | Paul_Ryan</otriple>
+      </originaltripleset>
+      <originaltripleset>
+        <otriple>United_States | leaderName | Paul_Ryan</otriple>
+      </originaltripleset>
+      <modifiedtripleset>
+        <mtriple>United_States | leaderName | Paul_Ryan</mtriple>
+      </modifiedtripleset>
+      <lex comment="good" lid="Id1">Paul Ryan is the leader of the United States.</lex>
+      <lex comment="good" lid="Id2">The leader of the United States is Paul Ryan.</lex>
+    </entry>
+  </entries>
+</benchmark>
