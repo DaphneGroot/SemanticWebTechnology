@@ -304,14 +304,27 @@ def test(category, predicateDict):
 					print("mostSimilarCorrectSentence \t", bestBleuSentence[0])
 				print('-'*80)
 
+		if recall > 0:
+			categoryRecall = recall/len(root[0])
+			if score > 0:
+				categoryPrecision = score/len(root[0])
+				categoryFscore = 2*((categoryPrecision*categoryRecall)/(categoryPrecision+categoryRecall))
+			else: 
+				categoryPrecision = 0
+				categoryFscore = 0
+		else:
+			categoryPrecision = 0
+			categoryRecall = 0
+			categoryFscore = 0
 
 		if PRINT_DETAILS == 'category' or PRINT_DETAILS == 'sentence': 
 			print('~'*80)
 			print('~'*80)
 			print("CATEGORY: ", category)
 			print("average Bleu score ", np.mean(bleuScoreList))
-			print("Recall is ", recall, "of ", len(root[0]))
-			print("sentences correct ", score, "of", len(root[0]))
+			print("Recall is ", recall, "of ", len(root[0]), ' (',round(categoryRecall, 3),')')
+			print("sentences correct ", score, "of", len(root[0]), ' (',round(categoryPrecision, 3),')')
+			print('F-Score is ', round(categoryFscore, 3))
 			print('~'*80)
 			print('~'*80)
 
@@ -361,13 +374,26 @@ def main():
 		overallSentencesCorrect.append(categorySentencesCorrect)
 		overallBleuScoreList = overallBleuScoreList + bleuScoreList
 
+	if sum(overallRecall) > 0:
+		recall = sum(overallRecall)/sum(overallSentencesAmount)
+		if sum(overallSentencesCorrect) > 0:
+			precision = sum(overallSentencesCorrect)/sum(overallSentencesAmount)
+			fscore = 2*((precision*recall)/(precision+recall))
+		else: 
+			precision = 0
+			fscore = 0
+	else:
+		precision = 0
+		recall = 0
+		fscore = 0
 
 	print('#'*80)
 	print('#'*80)
 	print('OVERALL SCORES')
 	print("average Bleu score ", np.mean(overallBleuScoreList))
-	print("Recall is ", sum(overallRecall), "of ", sum(overallSentencesAmount))
-	print("sentences correct ", sum(overallSentencesCorrect), "of", sum(overallSentencesAmount))
+	print("Recall is ", sum(overallRecall), "of ", sum(overallSentencesAmount), ' (',round(recall, 3),')')
+	print("sentences correct ", sum(overallSentencesCorrect), "of", sum(overallSentencesAmount), ' (',round(precision, 3),')')
+	print('F-Score is ', round(fscore, 3))
 	print('#'*80)
 	print('#'*80)
 
