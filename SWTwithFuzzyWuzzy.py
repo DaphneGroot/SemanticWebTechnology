@@ -15,15 +15,15 @@ p = inflect.engine()
 ### SETTINGS
 CATEGORY_SETTINGS = 'all' #run the program for all categories
 PRINT_DETAILS = 'sentence' #sentence / category / overall (waterfall)
-TUPLE_AMOUNT = 1 #how many tuples?
+TRIPLE_AMOUNT = 1 #how many triples?
 
 CATEGORIES = ['Airport', 'Astronaut', 'Building', 'City', 'Food', 'Monument', 'SportsTeam', 'University', 'WrittenWork']
 CATEGORY = CATEGORIES[0]
 
-if TUPLE_AMOUNT > 1:
-	TUPLE_FILE = str(TUPLE_AMOUNT)+'triples'
+if TRIPLE_AMOUNT > 1:
+	TRIPLE_FILE = str(TRIPLE_AMOUNT)+'triples'
 else:
-	TUPLE_FILE = str(TUPLE_AMOUNT)+'triple_allSolutions'
+	TRIPLE_FILE = str(TRIPLE_AMOUNT)+'triple_allSolutions'
 
 def checkCorrect(score,ourSentences,correctSentences):
 	highestBleuScore = 0
@@ -210,12 +210,14 @@ def test(category, predicateDict):
 	try: 
 		bleuScoreList = []
 		score = 0
-		tree = ET.parse('WebNLG/dev/'+str(TUPLE_AMOUNT)+'triples/'+TUPLE_FILE+'_'+category+'_dev_challenge.xml')
+		tree = ET.parse('WebNLG/dev/'+str(TRIPLE_AMOUNT)+'triples/'+TRIPLE_FILE+'_'+category+'_dev_challenge.xml')
 		root = tree.getroot()
 
+		sentenceNumber = 0
 		recall = 0
 		for i in range(len(root[0])):
 
+			sentenceNumber += 1
 			tripleSets = []
 			for tripleSet in root[0][i][1]:
 				tripleSets.append(tripleSet.text) 
@@ -265,8 +267,8 @@ def test(category, predicateDict):
 				ourSentences.append(ourSentence)
 
 			inverseDict = {}
-			for i in range(0, TUPLE_AMOUNT):
-				inverseDict[i] = TUPLE_AMOUNT-1-i
+			for i in range(0, TRIPLE_AMOUNT):
+				inverseDict[i] = TRIPLE_AMOUNT-1-i
 			#INVERSED check if the predicate is in the dict
 			if '-'.join(Predicates[::-1]) in predicateDict:
 				sentences = predicateDict['-'.join(Predicates[::-1])]
@@ -294,7 +296,9 @@ def test(category, predicateDict):
 				bleuScoreList.append(bleuScore)
 			
 			if PRINT_DETAILS == 'sentence':
-				print("bleuScore ", bleuScore)
+				sentence_id = str(TRIPLE_AMOUNT)+'triples_'+category+'_'+str(sentenceNumber)
+				print("SENTENCE_ID \t\t\t", sentence_id)
+				print("bleuScore \t\t\t", bleuScore)
 				if bestBleuSentence:
 					print("ourSentence \t\t\t", bestBleuSentence[1])
 					print("mostSimilarCorrectSentence \t", bestBleuSentence[0])
@@ -368,7 +372,7 @@ def main():
 	print('#'*80)
 
 def run(): 
-	tree = ET.parse('WebNLG/train/'+str(TUPLE_AMOUNT)+'triples/'+TUPLE_FILE+'_AllExceptCC_train_challenge.xml')
+	tree = ET.parse('WebNLG/train/'+str(TRIPLE_AMOUNT)+'triples/'+TRIPLE_FILE+'_AllExceptCC_train_challenge.xml')
 	root = tree.getroot()
 	predicateDict = {}
 
